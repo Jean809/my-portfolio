@@ -1,0 +1,36 @@
+/*Logo plus the list items */
+
+.mainContainer {
+  display: flex;
+}
+
+.lastName {
+  margin: 0.8em 0em 0em 12em;
+  color: #854eee;
+}
+
+/*Style for the list items*/
+
+.listContainer {
+  display: flex;
+  margin: 2.4em 0em 0em 0em;
+  width: 100%;
+  justify-content: center;
+  list-style: none;
+}
+
+.listContainer > a {
+  margin: 0em 6.5em 0em 0em;
+  font-weight: 500;
+}
+
+a:link,
+a:visited {
+  text-decoration: none;
+  color: inherit;
+}
+
+a:hover {
+  text-decoration: underline #854eee 2px;
+  text-underline-offset: 4px;
+}
