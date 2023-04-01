@@ -9,6 +9,8 @@ function Home() {
             <h1 className={HomeCSS.hello}>HELLO ━━━━━━━━━━━</h1>
             <h1 className={HomeCSS.myName}>I AM JEAN ROSARIO </h1>
             <h2 className={HomeCSS.myCareer}>Junior Web developer</h2>
+            <button className={HomeCSS.cv}>GET CV</button>
+            <button className={HomeCSS.projectbtn}>PROJECTS</button>
           </div>
           <div className={HomeCSS.meContainer}>
             <img

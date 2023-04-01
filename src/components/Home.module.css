@@ -1,3 +1,5 @@
+/*Container of entire component*/
+
 .mainContainer {
   background-image: url("/public/images/background-img.PNG");
   background-repeat: no-repeat;
@@ -5,6 +7,8 @@
   background-size: cover;
   padding: 60px 0px 70px 0px;
 }
+
+/*style for the text of "HELLO---- I AM.... JUNIOR WEB DEV.."*/
 
 .introduction {
   margin: 18em 3em 0em 30em;
@@ -26,6 +30,8 @@
   font-weight: 500;
 }
 
+/*IMG of cartoon self*/
+
 .me {
   height: 600px;
   width: 600px;
@@ -35,4 +41,27 @@
   display: flex;
   justify-content: end;
   margin: 2.5em 0em 0em 6em;
+}
+
+/*btn */
+
+.cv {
+  margin: 2.4em 1.5em 0em 0em;
+  padding: 13px 30px 13px 30px;
+  color: white;
+  background-color: #6845c1f7;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.projectbtn {
+  padding: 11px 25px 11px 25px;
+  border-radius: 5px;
+  border: none;
+  background-color: white;
+  border: #6845c1f7 2px solid;
+  cursor: pointer;
+  font-weight: 500;
 }
