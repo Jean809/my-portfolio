@@ -1,0 +1,38 @@
+.mainContainer {
+  background-image: url("/public/images/background-img.PNG");
+  background-repeat: no-repeat;
+  background-position: center center fixed;
+  background-size: cover;
+  padding: 60px 0px 70px 0px;
+}
+
+.introduction {
+  margin: 18em 3em 0em 30em;
+}
+
+.introductionContainer {
+  display: flex;
+  margin: 2em 0em 0em 0em;
+}
+
+.myName {
+  margin: 0.1em 0em 0em 0em;
+  font-weight: 800;
+  font-size: 60px;
+}
+
+.myCareer {
+  margin: 0.5em 0em 0em 0em;
+  font-weight: 500;
+}
+
+.me {
+  height: 600px;
+  width: 600px;
+}
+
+.meContainer {
+  display: flex;
+  justify-content: end;
+  margin: 2.5em 0em 0em 6em;
+}
