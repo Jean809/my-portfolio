@@ -11,12 +11,12 @@
 /*style for the text of "HELLO---- I AM.... JUNIOR WEB DEV.."*/
 
 .introduction {
-  margin: 18em 3em 0em 30em;
+  margin: 19em 3em 0em 30em;
 }
 
 .introductionContainer {
   display: flex;
-  margin: 2em 0em 0em 0em;
+  margin: 0em 0em 0em 0em;
 }
 
 .myName {
@@ -26,7 +26,7 @@
 }
 
 .myCareer {
-  margin: 0.5em 0em 0em 0em;
+  margin: 0.8em 0em 0em 0em;
   font-weight: 500;
 }
 
@@ -40,7 +40,7 @@
 .meContainer {
   display: flex;
   justify-content: end;
-  margin: 5em 0em 0em 6em;
+  margin: 7em 0em 0em 6em;
 }
 
 /*btn */
