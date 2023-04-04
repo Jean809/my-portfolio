@@ -1,0 +1,38 @@
+/*Parent container of all divs*/
+
+.mainContainer {
+  margin: 15em 0em 0em 0em;
+  display: flex;
+}
+
+/*the only image used on this component */
+.aboutIMG {
+  margin: 0em 5em 0em 7em;
+}
+
+/*From here to the bottom is all the text of the component*/
+
+.introductionContainer {
+  margin: 2em 0em 0em 0em;
+}
+
+.introTitle {
+  margin: 0em 0em 0.7em 0em;
+  font-size: 45px;
+}
+
+.paragraph {
+  font-weight: 400;
+  color: #534c4ce5;
+}
+
+.btn {
+  margin: 2em 0em 0em 0em;
+  padding: 1em 2.5em 1em 2.5em;
+  background-color: #6845c1f7;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-weight: 500;
+  cursor: pointer;
+}
