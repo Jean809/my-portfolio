@@ -1,0 +1,35 @@
+.title {
+  margin: 0em 0em 0.5em 26em;
+}
+
+.barIMG {
+  width: 25em;
+}
+
+.imgContainer {
+  margin: 0em 0em 0em 30em;
+}
+
+.firstTwoIMG {
+  margin: 0em 0em 3em 3em;
+}
+
+.lastTwoIMG {
+  margin: 0em 0em 0em 0em;
+}
+
+.reactSkills {
+  margin: 0em 0em 0em 8em;
+}
+
+.uiSkills {
+  margin: 0em 0em 0em 6em;
+}
+
+.jsSkills {
+  margin: 0em 0em 0em -5em;
+}
+
+.htmlSkills {
+  margin: 0em 0em 0em -7em;
+}
