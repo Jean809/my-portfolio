@@ -15,7 +15,7 @@ function Home() {
           <div className={HomeCSS.meContainer}>
             <img
               className={HomeCSS.me}
-              src="/images/my-character.PNG"
+              src="images/my-character.png"
               alt="cartoon image of myself"
             ></img>
           </div>

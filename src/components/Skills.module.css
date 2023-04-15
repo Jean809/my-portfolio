@@ -33,3 +33,9 @@
 .htmlSkills {
   margin: 0em 0em 0em -7em;
 }
+
+.projectsTitle {
+  display: flex;
+  justify-content: center;
+  margin: 3.5em 2.8em 0em 0em;
+}

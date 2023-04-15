@@ -26,6 +26,9 @@ function Skills() {
           ></img>
         </div>
       </div>
+      <div>
+        <h1 className={SkillsCSS.projectsTitle}>PROJECTS</h1>
+      </div>
     </div>
   );
 }

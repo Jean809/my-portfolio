@@ -2,11 +2,15 @@
 
 .mainContainer {
   display: flex;
+  position: sticky;
+  top: 0;
+  z-index: 100;
 }
 
 .lastName {
   margin: 0.8em 0em 0em 12em;
   color: #854eee;
+  cursor: pointer;
 }
 
 /*Style for the list items*/
