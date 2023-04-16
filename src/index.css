@@ -4,3 +4,9 @@
   margin: 0;
   padding: 0;
 }
+
+.card-container {
+  display: grid;
+  grid-template-columns: repeat(4, 450px);
+  grid-template-rows: 210px 210px;
+}
