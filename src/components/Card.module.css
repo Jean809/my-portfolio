@@ -2,6 +2,31 @@
   margin: 3em -4em 1em 2em;
 }
 
+.githubLink:link {
+  text-decoration: none;
+}
+
+.githubLink:visited {
+  text-decoration: none;
+}
+
+.githubLink:hover {
+  text-decoration: none;
+}
+
+.githubLink:active {
+  text-decoration: none;
+}
+
+.cardContainer:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+}
+
+.cardContainer:hover {
+  box-shadow: 7px 7px 20px 8px rgba(0, 0, 0, 0.6);
+}
+
 .cardContainer {
   width: 75%;
   height: 100%;

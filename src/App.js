@@ -15,6 +15,7 @@ function App() {
         badge2={item.badge2}
         badge3={item.badge3}
         description={item.description}
+        githubLink={item.githubLink}
       />
     );
   });
