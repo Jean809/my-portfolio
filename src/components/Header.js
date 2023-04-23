@@ -1,20 +1,21 @@
 import HeaderCSS from "./Header.module.css";
+import AnchorLink from "react-anchor-link-smooth-scroll";
 
 function Header() {
   return (
-    <header className={HeaderCSS.mainContainer}>
+    <header id="header" className={HeaderCSS.mainContainer}>
       <h1 className={HeaderCSS.lastName}>Rosario</h1>
       <ul className={HeaderCSS.listContainer}>
-        <a href="">
+        <a href="#home">
           <li>Home</li>
         </a>
-        <a href="">
+        <a href="#about">
           <li>About</li>
         </a>
-        <a href="">
+        <a href="#projects">
           <li>Projects</li>
         </a>
-        <a href="">
+        <a href="#contact">
           <li>Contact</li>
         </a>
       </ul>

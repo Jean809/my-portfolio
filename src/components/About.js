@@ -2,7 +2,7 @@ import AboutCSS from "./About.module.css";
 
 function About() {
   return (
-    <div>
+    <div id="about">
       <div className={AboutCSS.mainContainer}>
         <div className={AboutCSS.aboutIMG}>
           <img src="/images/about-us.png"></img>

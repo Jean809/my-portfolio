@@ -2,7 +2,7 @@ import SkillsCSS from "./Skills.module.css";
 
 function Skills() {
   return (
-    <div className={SkillsCSS.mainContainer}>
+    <div id="skills" className={SkillsCSS.mainContainer}>
       <h1 className={SkillsCSS.title}>My Toolbox</h1>
       <div className={SkillsCSS.imgContainer}>
         <div className={SkillsCSS.firstTwoIMG}>

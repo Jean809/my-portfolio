@@ -26,6 +26,7 @@ function App() {
       <Home />
       <About />
       <Skills />
+
       <div className="card-container">{card}</div>
 
       {/*

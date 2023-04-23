@@ -2,7 +2,7 @@ import CardCSS from "./Card.module.css";
 
 function Card(props) {
   return (
-    <div className={CardCSS.mainContainer}>
+    <div id="projects" className={CardCSS.mainContainer}>
       <a className={CardCSS.githubLink} href={props.githubLink}>
         <div className={CardCSS.cardContainer}>
           <h3 className={CardCSS.title}>{props.title}</h3>

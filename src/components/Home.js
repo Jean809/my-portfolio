@@ -2,7 +2,7 @@ import HomeCSS from "./Home.module.css";
 
 function Home() {
   return (
-    <div>
+    <div id="home">
       <div className={HomeCSS.mainContainer}>
         <div className={HomeCSS.introductionContainer}>
           <div className={HomeCSS.introduction}>
