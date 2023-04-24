@@ -4,6 +4,7 @@ import About from "./components/About";
 import Card from "./components/Card";
 import Skills from "./components/Skills";
 import data from "./components/data";
+import { useState } from "react";
 
 function App() {
   const card = data.map((item) => {

@@ -1,23 +1,54 @@
+import { useState } from "react";
 import HeaderCSS from "./Header.module.css";
-import AnchorLink from "react-anchor-link-smooth-scroll";
+import { Link, animateScroll as scroll } from "react-scroll";
 
-function Header() {
+function Header(props) {
+  const [isActive, setIsActive] = useState("home");
+
+  const handleLinkClick = (link) => {
+    setIsActive(link);
+  };
+
   return (
     <header id="header" className={HeaderCSS.mainContainer}>
       <h1 className={HeaderCSS.lastName}>Rosario</h1>
       <ul className={HeaderCSS.listContainer}>
-        <a href="#home">
+        <Link
+          to="home"
+          smooth={true}
+          duration={500}
+          onClick={() => handleLinkClick("home")}
+          className={isActive === "home" ? `${HeaderCSS.active}` : ""}
+        >
           <li>Home</li>
-        </a>
-        <a href="#about">
+        </Link>
+        <Link
+          to="about"
+          smooth={true}
+          duration={500}
+          onClick={() => handleLinkClick("about")}
+          className={isActive === "about" ? `${HeaderCSS.active}` : ""}
+        >
           <li>About</li>
-        </a>
-        <a href="#projects">
+        </Link>
+        <Link
+          to="projects"
+          smooth={true}
+          duration={500}
+          onClick={() => handleLinkClick("projects")}
+          className={isActive === "projects" ? `${HeaderCSS.active}` : ""}
+        >
           <li>Projects</li>
-        </a>
-        <a href="#contact">
+        </Link>
+        <Link
+          to="contact"
+          smooth={true}
+          duration={500}
+          onClick={() => handleLinkClick("contact")}
+          className={isActive === "contact" ? `${HeaderCSS.active}` : ""}
+        >
           <li>Contact</li>
-        </a>
+        </Link>
       </ul>
     </header>
   );
