@@ -34,5 +34,5 @@
   border: none;
   border-radius: 5px;
   font-weight: 500;
-  cursor: pointer;
+  cursor: not-allowed;
 }

@@ -52,7 +52,7 @@
   background-color: #6845c1f7;
   border-radius: 5px;
   border: none;
-  cursor: pointer;
+  cursor: not-allowed;
   font-weight: 500;
 }
 

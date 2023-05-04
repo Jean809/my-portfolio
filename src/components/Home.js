@@ -1,4 +1,5 @@
 import HomeCSS from "./Home.module.css";
+import { Link } from "react-scroll";
 
 function Home() {
   return (
@@ -10,7 +11,10 @@ function Home() {
             <h1 className={HomeCSS.myName}>I AM JEAN ROSARIO </h1>
             <h2 className={HomeCSS.myCareer}>Junior Web developer</h2>
             <button className={HomeCSS.cv}>GET CV</button>
-            <button className={HomeCSS.projectbtn}>PROJECTS</button>
+
+            <Link to="projects" activeClass="active" spy={true} smooth={true}>
+              <button className={HomeCSS.projectbtn}>PROJECTS</button>
+            </Link>
           </div>
           <div className={HomeCSS.meContainer}>
             <img

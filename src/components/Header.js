@@ -42,10 +42,10 @@ function Header(props) {
         </Link>
         <Link
           className={HeaderCSS.unavailable}
-          to="contact"
+          /*to="contact"
           smooth={true}
           duration={500}
-          onClick={() => handleLinkClick("contact")}
+          onClick={() => handleLinkClick("contact")}*/
           /*className={isActive === "contact" ? `${HeaderCSS.active}` : ""}*/
         >
           <li>Contact</li>

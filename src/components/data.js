@@ -26,9 +26,9 @@ export default [
   {
     id: 3,
     title: "todo-app",
-    badge1: "images/badges/JavaScript.png",
-    badge2: "images/badges/HTML.png",
-    badge3: "images/badges/CSS.png",
+    badge1: "images/badges/React.png",
+    badge2: "",
+    badge3: "",
     badge4: "",
     description:
       "An application that stores the daily ''to-do'' on a day by day basis of the user input. It allows the user to add and remove accordingly.",
