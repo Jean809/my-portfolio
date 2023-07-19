@@ -5,7 +5,7 @@
   background-repeat: no-repeat;
   background-position: center center fixed;
   background-size: cover;
-  padding: 60px 0px 70px 0px;
+  padding: 3.8em 0em 4.5em 0em;
 }
 
 /*style for the text of "HELLO---- I AM.... JUNIOR WEB DEV.."*/
@@ -20,13 +20,13 @@
 }
 
 .myName {
-  margin: 0.1em 0em 0em 0em;
+  margin: 5.8px 0px 0px 0px;
   font-weight: 800;
   font-size: 60px;
 }
 
 .myCareer {
-  margin: 0.8em 0em 0em 0em;
+  margin: 19px 0px 0px 0px;
   font-weight: 500;
 }
 
@@ -46,7 +46,7 @@
 /*btn */
 
 .cv {
-  margin: 2.4em 1.5em 0em 0em;
+  margin: 28px 20px 0px 0px;
   padding: 13px 30px 13px 30px;
   color: white;
   background-color: #6845c1f7;
