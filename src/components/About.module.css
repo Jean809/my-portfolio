@@ -36,3 +36,9 @@
   font-weight: 500;
   cursor: not-allowed;
 }
+
+@media only screen and (min-width: 992px) {
+  .introductionContainer {
+    margin: 2em 0em 0em 1em;
+  }
+}
