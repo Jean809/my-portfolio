@@ -11,7 +11,7 @@
 /*style for the text of "HELLO---- I AM.... JUNIOR WEB DEV.."*/
 
 .introduction {
-  margin: 19em 3em 0em 30em;
+  margin: 19em 3em 0em 31em;
 }
 
 .introductionContainer {
@@ -34,13 +34,13 @@
 
 .me {
   height: 600px;
-  width: 600px;
+  width: 500px;
 }
 
 .meContainer {
   display: flex;
   justify-content: end;
-  margin: 7em 0em 0em 6em;
+  margin: 7em 0em 0em 2em;
 }
 
 /*btn */
@@ -64,4 +64,10 @@
   border: #6845c1f7 2px solid;
   cursor: pointer;
   font-weight: 500;
+}
+
+@media only screen and (min-width: 992px) {
+  .introduction {
+    margin: 19em 3em 0em 31em;
+  }
 }

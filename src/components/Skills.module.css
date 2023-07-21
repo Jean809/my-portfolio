@@ -1,5 +1,5 @@
 .title {
-  margin: 0em 0em 15px 830px;
+  margin: 0px 0px 20px 650px;
 }
 
 .barIMG {
@@ -38,4 +38,28 @@
   display: flex;
   justify-content: center;
   margin: 115px 88px 0px 0px;
+}
+
+@media only screen and (min-width: 992px) {
+  .jsSkills {
+    margin: 2em 0em 0em 4em;
+  }
+
+  .reactSkills {
+    margin: 3em 0em 0em 3.9em;
+  }
+
+  .htmlSkills {
+    margin: 3em 0em 0em 4em;
+  }
+
+  .uiSkills {
+    margin: 3em 0em 0em 3.7em;
+  }
+
+  .projectsTitle {
+    display: flex;
+    justify-content: center;
+    margin: 115px -190px 0px 0px;
+  }
 }
