@@ -5,23 +5,26 @@ function Skills() {
     <div id="skills" className={SkillsCSS.mainContainer}>
       <h1 className={SkillsCSS.title}>My Toolbox</h1>
       <div className={SkillsCSS.imgContainer}>
-        <img
-          className={`${SkillsCSS.barIMG} ${SkillsCSS.jsSkills}`}
-          src="images/js-skill.PNG"
-        ></img>
-        <img
-          className={`${SkillsCSS.barIMG} ${SkillsCSS.reactSkills}`}
-          src="images/react-skill.PNG"
-        ></img>
-
-        <img
-          className={`${SkillsCSS.barIMG} ${SkillsCSS.htmlSkills}`}
-          src="images/html-skill.PNG"
-        ></img>
-        <img
-          className={`${SkillsCSS.barIMG} ${SkillsCSS.uiSkills}`}
-          src="images/ui-ux-skill.PNG"
-        ></img>
+        <div className={SkillsCSS.firstTwoIMG}>
+          <img
+            className={`${SkillsCSS.barIMG} ${SkillsCSS.jsSkills}`}
+            src="images/js-skill.PNG"
+          ></img>
+          <img
+            className={`${SkillsCSS.barIMG} ${SkillsCSS.reactSkills}`}
+            src="images/react-skill.PNG"
+          ></img>
+        </div>
+        <div className={SkillsCSS.lastTwoIMG}>
+          <img
+            className={`${SkillsCSS.barIMG} ${SkillsCSS.htmlSkills}`}
+            src="images/html-skill.PNG"
+          ></img>
+          <img
+            className={`${SkillsCSS.barIMG} ${SkillsCSS.uiSkills}`}
+            src="images/ui-ux-skill.PNG"
+          ></img>
+        </div>
       </div>
       <div>
         <h1 className={SkillsCSS.projectsTitle}>PROJECTS</h1>

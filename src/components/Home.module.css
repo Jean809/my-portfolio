@@ -65,9 +65,3 @@
   cursor: pointer;
   font-weight: 500;
 }
-
-@media only screen and (min-width: 992px) {
-  .introduction {
-    margin: 19em 3em 0em 31em;
-  }
-}
