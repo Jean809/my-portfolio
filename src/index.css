@@ -1,12 +1,13 @@
 * {
-  font-family: "Roboto", sans-serif;
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
+	font-family: "Roboto", sans-serif;
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	background-color: #34343a;
 }
 
 .card-container {
-  display: grid;
-  grid-template-columns: repeat(4, 450px);
-  grid-template-rows: 240px 240px;
+	display: grid;
+	grid-template-columns: repeat(4, 450px);
+	grid-template-rows: 240px 240px;
 }

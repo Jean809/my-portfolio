@@ -7,30 +7,31 @@ import data from "./components/data";
 import { useState } from "react";
 
 function App() {
-  const card = data.map((item) => {
-    return (
-      <Card
-        key={item.id}
-        title={item.title}
-        badge1={item.badge1}
-        badge2={item.badge2}
-        badge3={item.badge3}
-        description={item.description}
-        githubLink={item.githubLink}
-      />
-    );
-  });
+	const card = data.map((item) => {
+		return (
+			<Card
+				key={item.id}
+				title={item.title}
+				badge1={item.badge1}
+				badge2={item.badge2}
+				badge3={item.badge3}
+				description={item.description}
+				githubLink={item.githubLink}
+			/>
+		);
+	});
 
-  return (
-    <div className="App">
-      <Header />
+	return (
+		<div className="App">
+			<Header />
+			{/*
       <Home />
       <About />
-      <Skills />
+  <Skills />
 
-      <div className="card-container">{card}</div>
+  <div className="card-container">{card}</div> */}
 
-      {/*
+			{/*
       <Card
 
       
@@ -41,8 +42,8 @@ function App() {
         description="A game with a scoring system that measures the highest score obtained
         as you are guessing the correct numbers."
   />*/}
-    </div>
-  );
+		</div>
+	);
 }
 
 export default App;

@@ -1,61 +1,81 @@
 /*Logo plus the list items */
 
 .mainContainer {
-  display: flex;
-  position: sticky;
-  top: 0;
-  z-index: 100;
-}
-
-.lastName {
-  margin: 31px 0px 0px 400px;
-  color: #854eee;
-  cursor: pointer;
+	display: flex;
+	position: sticky;
+	top: 0;
+	z-index: 100;
+	width: 100%;
+	overflow-x: hidden;
 }
 
 /*Style for the list items*/
 
 .listContainer {
-  display: flex;
-  margin: 2.4em 0em 0em 0em;
-  width: 100%;
-  justify-content: center;
-  list-style: none;
+	display: flex;
+	width: 100%;
+	align-items: center;
+	justify-content: end;
+	list-style: none;
 }
 
 .listContainer > a {
-  margin: 0em 6.5em 0em 0em;
-  font-weight: 500;
+	margin: -40px 45px 0px -10px;
+	font-weight: 500;
+	color: white;
 }
 
 a:link,
 a:visited {
-  text-decoration: none;
-  color: inherit;
+	text-decoration: none;
+	color: inherit;
 }
 
 a:hover {
-  text-decoration: underline #854eee 2px;
-  text-underline-offset: 4px;
-  cursor: pointer;
+	text-decoration: underline #854eee 2px;
+	text-underline-offset: 4px;
+	cursor: pointer;
 }
 
 .listContainer a.active {
-  color: #854eee;
-  text-decoration: underline #854eee 2px;
-  text-underline-offset: 4px;
+	color: #854eee;
+	text-decoration: underline #854eee 2px;
+	text-underline-offset: 4px;
 }
 
 .unavailable:hover {
-  cursor: not-allowed;
+	cursor: not-allowed;
 }
 
-/* For 1024 Resolution */
-@media only screen and (min-width: 992px) {
-  .lastName {
-    margin: 40px 0px 0px 100px;
-  }
-  .listContainer {
-    margin: 3em 0em 0em 20em;
-  }
+/*home icon */
+
+.homeContainer {
+	position: relative;
+	bottom: 28px;
 }
+
+.homeText {
+	position: relative;
+	color: white;
+	font-size: 20px;
+	font-weight: 500;
+	top: 39px;
+	left: 26px;
+	background-color: transparent;
+}
+
+/*
+@media only screen and (min-width: 768px) {
+  .listContainer {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: end;
+    list-style: none;
+  }
+  
+  .listContainer > a {
+    margin: 0px 20px 0px 30px;
+    font-weight: 500;
+  }
+}*/
