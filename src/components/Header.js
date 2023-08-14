@@ -40,16 +40,16 @@ function Header(props) {
 				>
 					<li>Contact</li>
 				</Link>
-				<div className={HeaderCSS.homeContainer}>
-					<p className={HeaderCSS.homeText}>HOME</p>
-					<img
-						className={HeaderCSS.homeIcon}
-						src="images/home-icon.png"
-						height={60}
-						width={100}
-					/>
-				</div>
 			</ul>
+			<div className={HeaderCSS.homeContainer}>
+				<p className={HeaderCSS.homeText}>HOME</p>
+				<img
+					className={HeaderCSS.homeIcon}
+					src="images/home-icon.png"
+					height={60}
+					width={100}
+				/>
+			</div>
 		</header>
 	);
 }

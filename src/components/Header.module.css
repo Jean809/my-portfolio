@@ -52,6 +52,7 @@ a:hover {
 .homeContainer {
 	position: relative;
 	bottom: 28px;
+	right: 24px;
 }
 
 .homeText {
@@ -64,18 +65,26 @@ a:hover {
 	background-color: transparent;
 }
 
-/*
 @media only screen and (min-width: 768px) {
-  .listContainer {
-    display: flex;
-    align-items: center;
-    width: 100%;
-    justify-content: end;
-    list-style: none;
-  }
-  
-  .listContainer > a {
-    margin: 0px 20px 0px 30px;
-    font-weight: 500;
-  }
-}*/
+	.mainContainer {
+		flex-direction: row-reverse;
+	}
+
+	.homeContainer {
+		margin: 0px 0px 0px 90px;
+	}
+
+	.listContainer {
+		display: flex;
+		width: 100%;
+		align-items: center;
+		justify-content: end;
+		list-style: none;
+	}
+
+	.listContainer > a {
+		margin: -40px 90px 0px 20px;
+		font-weight: 500;
+		color: white;
+	}
+}
