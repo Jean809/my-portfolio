@@ -2,31 +2,61 @@ import HomeCSS from "./Home.module.css";
 import { Link } from "react-scroll";
 
 function Home() {
-  return (
-    <div id="home">
-      <div className={HomeCSS.mainContainer}>
-        <div className={HomeCSS.introductionContainer}>
-          <div className={HomeCSS.introduction}>
-            <h1 className={HomeCSS.hello}>HELLO ━━━━━━━━━━━</h1>
-            <h1 className={HomeCSS.myName}>I AM JEAN ROSARIO </h1>
-            <h2 className={HomeCSS.myCareer}>Junior Web developer</h2>
-            <button className={HomeCSS.cv}>GET CV</button>
+	return (
+		<div id="home">
+			<div className={HomeCSS.mainContainer}>
+				<div className={HomeCSS.particlesContainer}>
+					<img
+						className={HomeCSS.orangeParticle1}
+						src="images/orange-bubble.png"
+						width={60}
+					/>
+					<img
+						className={HomeCSS.orangeParticle2}
+						src="images/orange-bubble.png"
+						width={60}
+					/>
 
-            <Link to="projects" activeClass="active" spy={true} smooth={true}>
-              <button className={HomeCSS.projectbtn}>PROJECTS</button>
-            </Link>
-          </div>
-          <div className={HomeCSS.meContainer}>
-            <img
-              className={HomeCSS.me}
-              src="images/my-character.png"
-              alt="cartoon image of myself"
-            ></img>
-          </div>
-        </div>
-      </div>
-    </div>
-  );
+					<img
+						className={HomeCSS.orangeParticle3}
+						src="images/orange-bubble.png"
+						width={40}
+					/>
+
+					<img
+						className={HomeCSS.purpleParticle1}
+						src="/images/purple-bubble.png"
+						width={40}
+					/>
+					<img
+						className={HomeCSS.purpleParticle2}
+						src="/images/purple-bubble.png"
+						width={40}
+					/>
+
+					<img
+						className={HomeCSS.purpleParticle3}
+						src="/images/purple-bubble.png"
+						width={80}
+					/>
+				</div>
+				<img
+					className={HomeCSS.cartoonSelf}
+					src="images/cartoon-self.PNG"
+					height={340}
+				/>
+				<div className={HomeCSS.introduction}>
+					<h1 className={HomeCSS.helloText}>HELLO</h1>
+					<h1 className={HomeCSS.lastNameBKG}>ROSARIO</h1>
+					<p className={HomeCSS.line}>─────────</p>
+					<h3 className={HomeCSS.myName}>I AM JEAN</h3>
+					<h3 className={HomeCSS.lastName}>ROSARIO</h3>
+					<h2 className={HomeCSS.career}>Junior Web Developer</h2>
+					<p className={HomeCSS.getCV}>GET CV</p>
+				</div>
+			</div>
+		</div>
+	);
 }
 
 export default Home;
