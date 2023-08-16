@@ -24,6 +24,23 @@ function Home() {
 					/>
 
 					<img
+						className={HomeCSS.orangeParticle4}
+						src="images/orange-bubble.png"
+						width={60}
+					/>
+					<img
+						className={HomeCSS.orangeParticle5}
+						src="images/orange-bubble.png"
+						width={60}
+					/>
+
+					<img
+						className={HomeCSS.orangeParticle6}
+						src="images/orange-bubble.png"
+						width={40}
+					/>
+
+					<img
 						className={HomeCSS.purpleParticle1}
 						src="/images/purple-bubble.png"
 						width={40}
@@ -39,6 +56,12 @@ function Home() {
 						src="/images/purple-bubble.png"
 						width={80}
 					/>
+
+					<img
+						className={HomeCSS.purpleParticle4}
+						src="/images/purple-bubble.png"
+						width={40}
+					/>
 				</div>
 				<img
 					className={HomeCSS.cartoonSelf}
@@ -48,9 +71,13 @@ function Home() {
 				<div className={HomeCSS.introduction}>
 					<h1 className={HomeCSS.helloText}>HELLO</h1>
 					<h1 className={HomeCSS.lastNameBKG}>ROSARIO</h1>
-					<p className={HomeCSS.line}>─────────</p>
-					<h3 className={HomeCSS.myName}>I AM JEAN</h3>
-					<h3 className={HomeCSS.lastName}>ROSARIO</h3>
+					<p className={HomeCSS.line}>
+						─────────<span className={HomeCSS.extraLine}>────────</span>
+					</p>
+					<h3 className={HomeCSS.myName}>
+						I AM JEAN<span className={HomeCSS.lastName}>ROSARIO</span>
+					</h3>
+					{/*<h3 className={HomeCSS.lastName}>ROSARIO</h3>*/}
 					<h2 className={HomeCSS.career}>Junior Web Developer</h2>
 					<p className={HomeCSS.getCV}>GET CV</p>
 				</div>
