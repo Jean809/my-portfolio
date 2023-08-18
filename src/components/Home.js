@@ -1,69 +1,105 @@
 import HomeCSS from "./Home.module.css";
 import { Link } from "react-scroll";
+import { motion } from "framer-motion";
+import { useState } from "react";
+import { useEffect } from "react";
 
 function Home() {
+	const [moveX, setMoveX] = useState(true);
+
+	function switcher() {
+		return moveX ? false : true;
+	}
+
+	useEffect(() => {
+		setInterval(switcher, 4000);
+	}, []);
+
 	return (
 		<div id="home">
 			<div className={HomeCSS.mainContainer}>
 				<div className={HomeCSS.particlesContainer}>
-					<img
+					<motion.img
+						animate={{ x: [0, 20, 20, 0], y: [20, 0, 0, 20] }}
+						transition={{ type: "tween", duration: 3, repeat: Infinity }}
 						className={HomeCSS.orangeParticle1}
 						src="images/orange-bubble.png"
 						width={60}
 					/>
-					<img
+					<motion.img
+						animate={{ x: [20, 0, 0, 20], y: [0, 15, 15, 0] }}
+						transition={{ type: "tween", duration: 4, repeat: Infinity }}
 						className={HomeCSS.orangeParticle2}
 						src="images/orange-bubble.png"
 						width={60}
 					/>
 
-					<img
+					<motion.img
+						animate={{ x: [0, 20, 20, 0] }}
+						transition={{ type: "tween", duration: 4, repeat: Infinity }}
 						className={HomeCSS.orangeParticle3}
 						src="images/orange-bubble.png"
 						width={40}
 					/>
 
-					<img
+					<motion.img
+						animate={{ y: [0, 20, 20, 0] }}
+						transition={{ type: "tween", duration: 3, repeat: Infinity }}
 						className={HomeCSS.orangeParticle4}
 						src="images/orange-bubble.png"
 						width={60}
 					/>
-					<img
+					<motion.img
+						animate={{ y: [0, 20, 20, 0] }}
+						transition={{ type: "tween", duration: 5, repeat: Infinity }}
 						className={HomeCSS.orangeParticle5}
 						src="images/orange-bubble.png"
 						width={60}
 					/>
 
-					<img
+					<motion.img
+						animate={{ x: [0, 15, 15, 0] }}
+						transition={{ type: "tween", duration: 3, repeat: Infinity }}
 						className={HomeCSS.orangeParticle6}
 						src="images/orange-bubble.png"
 						width={40}
 					/>
 
-					<img
+					<motion.img
+						animate={{ y: [0, 20, 20, 0] }}
+						transition={{ type: "tween", duration: 3, repeat: Infinity }}
 						className={HomeCSS.purpleParticle1}
 						src="/images/purple-bubble.png"
 						width={40}
 					/>
-					<img
+					<motion.img
+						animate={{ x: [0, 15, 15, 0] }}
+						transition={{ type: "tween", duration: 3, repeat: Infinity }}
 						className={HomeCSS.purpleParticle2}
 						src="/images/purple-bubble.png"
 						width={40}
 					/>
 
-					<img
+					<motion.img
+						animate={{ x: [0, 20, 20, 0], y: [20, 0, 0, 20] }}
+						transition={{ type: "tween", duration: 4, repeat: Infinity }}
 						className={HomeCSS.purpleParticle3}
 						src="/images/purple-bubble.png"
 						width={80}
 					/>
 
-					<img
+					<motion.img
+						animate={{ x: [0, 20, 20, 0], y: [15, 0, 0, 15] }}
+						transition={{ type: "tween", duration: 4, repeat: Infinity }}
 						className={HomeCSS.purpleParticle4}
 						src="/images/purple-bubble.png"
 						width={40}
 					/>
 				</div>
-				<img
+				<motion.img
+					animate={{ opacity: 1 }}
+					initial={{ opacity: 0 }}
+					transition={{ duration: 1, repeat: 5 }}
 					className={HomeCSS.cartoonSelf}
 					src="images/cartoon-self.PNG"
 					height={340}

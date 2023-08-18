@@ -30,6 +30,10 @@ function App() {
 			
 			
 			
+			
+			
+			
+			
       <About />
   <Skills />
 
