@@ -1,70 +1,43 @@
-/*Logo plus the list items */
+.listContainer {
+	display: flex;
+	list-style: none;
+	gap: 25px;
+}
+
+li {
+	color: white;
+	margin: 10px 0px 0px 0px;
+}
+
+/*this is to make home next to list items*/
 
 .mainContainer {
 	display: flex;
-	position: sticky;
-	top: 0;
-	z-index: 100;
-	width: 100%;
-	overflow-x: hidden;
 }
 
-/*Style for the list items*/
-
-.listContainer {
-	display: flex;
-	width: 100%;
-	align-items: center;
-	justify-content: end;
-	list-style: none;
-}
-
-.listContainer > a {
-	margin: -40px 45px 0px -10px;
-	font-weight: 500;
-	color: white;
-}
-
-a:link,
-a:visited {
-	text-decoration: none;
-	color: inherit;
-}
-
-a:hover {
-	text-decoration: underline #854eee 2px;
-	text-underline-offset: 4px;
-	cursor: pointer;
-}
-
-.listContainer a.active {
-	color: #854eee;
-	text-decoration: underline #854eee 2px;
-	text-underline-offset: 4px;
-}
-
-.unavailable:hover {
-	cursor: not-allowed;
-}
-
-/*home icon */
+/* HOME btn */
 
 .homeContainer {
 	position: relative;
-	bottom: 28px;
-	right: 24px;
+	bottom: 30px;
 }
 
 .homeText {
 	position: relative;
+	background-color: transparent;
 	color: white;
 	font-size: 20px;
-	font-weight: 500;
-	top: 39px;
-	left: 26px;
-	background-color: transparent;
+	top: 40px;
+	left: 35px;
+	z-index: 1;
+	width: max-content;
 }
 
+.homeIcon {
+	position: relative;
+	width: 120px;
+}
+/*
 @media only screen and (min-width: 768px) {
 	.mainContainer {
 		flex-direction: row-reverse;
@@ -88,3 +61,4 @@ a:hover {
 		color: white;
 	}
 }
+*/

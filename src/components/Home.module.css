@@ -1,64 +1,76 @@
 .cartoonSelf {
-	margin: 0px 0px 0px 50px;
+	position: relative;
+	bottom: 10px;
+	left: 50px;
+	background-color: transparent;
 }
 
 .introduction {
-	margin: 10px 0px 0px 110px;
+	position: relative;
+	background-color: transparent;
+	top: -30px;
+	left: 100px;
 }
 
 .helloText {
-	color: white;
 	position: relative;
-	margin: 0px 0px 0px 50px;
+	color: white;
+	font-size: 33px;
+	left: 40px;
+	top: 25px;
+	z-index: 1;
 	background-color: transparent;
-	font-weight: 800;
 }
 
 .lastNameBKG {
-	color: #626166;
-	font-size: 50px;
-	margin: -25px 0px 0px 0px;
-}
-
-.line {
-	font-size: 30px;
-	margin: -15px 0px -8px 0px;
-}
-
-.extraLine {
-	display: none;
+	position: relative;
+	color: rgba(128, 128, 128, 0.623);
+	transform: scaleX(1.7);
+	left: 30px;
+	background-color: transparent;
 }
 
 .myName {
-	display: inline;
 	color: white;
-	font-weight: 300;
 	font-size: 30px;
-	margin: 0px 0px 0px 30px;
+	font-weight: 400;
+	margin: 0px 0px 0px 20px;
 }
 
 .lastName {
 	display: block;
-	color: white;
-	font-weight: 300;
-	font-size: 30px;
-	margin: 0px 0px 0px 30px;
+	transform: scaleX(1.2);
+	margin: 5px 0px 0px 10px;
+	font-weight: 400;
 }
 
 .career {
 	color: white;
-	font-weight: 500;
 	font-size: 20px;
-	margin: 25px 0px 40px 0px;
+	margin: 30px 0px 0px -10px;
+	background-color: transparent;
 }
 
 .getCV {
-	display: inline;
-	color: white;
-	background-color: #6139bf;
-	padding: 15px 30px 15px 30px;
-	border-radius: 30px;
-	margin: 0px 0px 0px 35px;
+	background-color: #9667ee;
+	padding: 10px 25px 10px 25px;
+	border-radius: 20px;
+	color: rgb(255, 255, 255);
+	font-size: 13px;
+	margin: 20px 0px 0px 40px;
+}
+
+.helloText,
+.lastName,
+.lastNameBKG,
+.myName,
+.career,
+.getCV,
+.getCV,
+.line,
+.extraLine,
+.introduction {
+	width: max-content;
 }
 
 /*particles */
@@ -72,7 +84,7 @@
 
 .orangeParticle2 {
 	position: absolute;
-	top: 790px;
+	top: 700px;
 	left: 50px;
 	transform: rotate(25deg);
 	opacity: 0.5;
@@ -80,13 +92,14 @@
 
 .orangeParticle3 {
 	position: absolute;
-	left: 350px;
+	left: 310px;
 	top: 550px;
 	transform: rotate(75deg);
 	opacity: 0.5;
 }
 
 /* Particles 4-6 are for desktop view */
+
 .orangeParticle4 {
 	display: none;
 }
