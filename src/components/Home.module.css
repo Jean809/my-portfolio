@@ -1,6 +1,6 @@
 .cartoonSelf {
 	position: relative;
-	bottom: 10px;
+	top: 30px;
 	left: 50px;
 	background-color: transparent;
 }
@@ -8,7 +8,7 @@
 .introduction {
 	position: relative;
 	background-color: transparent;
-	top: -30px;
+	top: 10px;
 	left: 100px;
 }
 
@@ -28,6 +28,12 @@
 	transform: scaleX(1.7);
 	left: 30px;
 	background-color: transparent;
+}
+
+.line {
+	font-size: 20px;
+	transform: scaleX(1.8);
+	margin: 0px 0px 0px 34px;
 }
 
 .myName {
@@ -52,7 +58,7 @@
 }
 
 .getCV {
-	background-color: #9667ee;
+	background-color: #7246c5;
 	padding: 10px 25px 10px 25px;
 	border-radius: 20px;
 	color: rgb(255, 255, 255);
@@ -143,51 +149,39 @@
 
 @media only screen and (min-width: 768px) {
 	.cartoonSelf {
-		margin: 0px 0px 0px 600px;
+		width: 400px;
+		height: 400px;
+		margin: -20px 0px 0px 530px;
 	}
 
 	.introduction {
-		margin: -50px 0px 0px 650px;
+		position: absolute;
+		left: 43em;
+		top: 26em;
 	}
 
 	.lastNameBKG {
-		font-size: 100px;
-		margin: -70px 0px 0px -90px;
+		font-size: 70px;
+		margin: 0px 0px 0px -80px;
 	}
 
 	.line {
-		font-size: 30px;
-		margin: -15px 0px -8px -70px;
+		font-size: 25px;
+		transform: scaleX(3.2);
+		margin: 0px 0px 0px 45px;
 	}
 
-	.extraLine {
-		display: inline;
-		margin: 0px 0px 0px 0px;
-	}
-
-	.helloText {
-		color: white;
-		position: relative;
-		margin: 35px 0px 0px 0px;
-		background-color: transparent;
-		font-weight: 800;
-		font-size: 70px;
-	}
-
-	.getCV {
-		color: white;
-		background-color: #6139bf;
-		padding: 15px 30px 15px 30px;
-		border-radius: 30px;
-		margin: 25px 0px 0px 37px;
-	}
-	.myName {
-		display: inline;
-		margin: 0px 0px 0px -30px;
-	}
 	.lastName {
 		display: inline;
-		margin: 0px 0px 0px 10px;
+	}
+
+	.myName {
+		font-size: 35px;
+		margin: 0px 0px 0px -55px;
+	}
+	.helloText {
+		font-size: 50px;
+		margin: 0px 0px -20px -35px;
 	}
 
 	.orangeParticle1 {

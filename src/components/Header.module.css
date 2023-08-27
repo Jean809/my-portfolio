@@ -18,8 +18,10 @@ li {
 /* HOME btn */
 
 .homeContainer {
+	background-color: transparent;
 	position: relative;
-	bottom: 30px;
+	bottom: 1.8em;
+	left: 1em;
 }
 
 .homeText {
@@ -34,31 +36,21 @@ li {
 }
 
 .homeIcon {
-	position: relative;
 	width: 120px;
 }
-/*
-@media only screen and (min-width: 768px) {
-	.mainContainer {
-		flex-direction: row-reverse;
-	}
 
+@media only screen and (min-width: 768px) {
 	.homeContainer {
-		margin: 0px 0px 0px 90px;
+		position: fixed;
+		top: -30px;
 	}
 
 	.listContainer {
 		display: flex;
 		width: 100%;
-		align-items: center;
-		justify-content: end;
 		list-style: none;
-	}
-
-	.listContainer > a {
-		margin: -40px 90px 0px 20px;
+		flex-direction: row-reverse;
 		font-weight: 500;
-		color: white;
+		gap: 70px;
 	}
 }
-*/
