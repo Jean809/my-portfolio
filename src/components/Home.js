@@ -14,14 +14,14 @@ function Home() {
 							animate={{ x: [0, 20, 20, 0], y: [20, 0, 0, 20] }}
 							transition={{ type: "tween", duration: 3, repeat: Infinity }}
 							className={HomeCSS.orangeParticle1}
-							src="images/orange-bubble.png"
+							src="https://ik.imagekit.io/o6xkxph96/JeanRosario/tr:w-60/my-portfolio-img/orange-bubble.png"
 							width={60}
 						/>
 						<motion.img
 							animate={{ x: [20, 0, 0, 20], y: [0, 15, 15, 0] }}
 							transition={{ type: "tween", duration: 4, repeat: Infinity }}
 							className={HomeCSS.orangeParticle2}
-							src="images/orange-bubble.png"
+							src="https://ik.imagekit.io/o6xkxph96/JeanRosario/tr:w-60/my-portfolio-img/orange-bubble.png"
 							width={60}
 						/>
 
@@ -29,7 +29,7 @@ function Home() {
 							animate={{ x: [0, 20, 20, 0] }}
 							transition={{ type: "tween", duration: 4, repeat: Infinity }}
 							className={HomeCSS.orangeParticle3}
-							src="images/orange-bubble.png"
+							src="https://ik.imagekit.io/o6xkxph96/JeanRosario/tr:w-60/my-portfolio-img/orange-bubble.png"
 							width={40}
 						/>
 
@@ -37,14 +37,14 @@ function Home() {
 							animate={{ y: [0, 20, 20, 0] }}
 							transition={{ type: "tween", duration: 3, repeat: Infinity }}
 							className={HomeCSS.orangeParticle4}
-							src="images/orange-bubble.png"
+							src="https://ik.imagekit.io/o6xkxph96/JeanRosario/tr:w-60/my-portfolio-img/orange-bubble.png"
 							width={60}
 						/>
 						<motion.img
 							animate={{ y: [0, 20, 20, 0] }}
 							transition={{ type: "tween", duration: 5, repeat: Infinity }}
 							className={HomeCSS.orangeParticle5}
-							src="images/orange-bubble.png"
+							src="https://ik.imagekit.io/o6xkxph96/JeanRosario/tr:w-60/my-portfolio-img/orange-bubble.png"
 							width={60}
 						/>
 
@@ -52,7 +52,7 @@ function Home() {
 							animate={{ x: [0, 15, 15, 0] }}
 							transition={{ type: "tween", duration: 3, repeat: Infinity }}
 							className={HomeCSS.orangeParticle6}
-							src="images/orange-bubble.png"
+							src="https://ik.imagekit.io/o6xkxph96/JeanRosario/tr:w-60/my-portfolio-img/orange-bubble.png"
 							width={40}
 						/>
 
@@ -60,14 +60,14 @@ function Home() {
 							animate={{ y: [0, 20, 20, 0] }}
 							transition={{ type: "tween", duration: 3, repeat: Infinity }}
 							className={HomeCSS.purpleParticle1}
-							src="/images/purple-bubble.png"
+							src="https://ik.imagekit.io/o6xkxph96/JeanRosario/tr:w-60/my-portfolio-img/purple-bubble.png"
 							width={40}
 						/>
 						<motion.img
 							animate={{ x: [0, 15, 15, 0] }}
 							transition={{ type: "tween", duration: 3, repeat: Infinity }}
 							className={HomeCSS.purpleParticle2}
-							src="/images/purple-bubble.png"
+							src="https://ik.imagekit.io/o6xkxph96/JeanRosario/tr:w-60/my-portfolio-img/purple-bubble.png"
 							width={40}
 						/>
 
@@ -75,7 +75,7 @@ function Home() {
 							animate={{ x: [0, 20, 20, 0], y: [20, 0, 0, 20] }}
 							transition={{ type: "tween", duration: 4, repeat: Infinity }}
 							className={HomeCSS.purpleParticle3}
-							src="/images/purple-bubble.png"
+							src="https://ik.imagekit.io/o6xkxph96/JeanRosario/tr:w-60/my-portfolio-img/purple-bubble.png"
 							width={80}
 						/>
 
@@ -84,7 +84,7 @@ function Home() {
 							transition={{ type: "tween", duration: 4, repeat: Infinity }}
 							y
 							className={HomeCSS.purpleParticle4}
-							src="/images/purple-bubble.png"
+							src="https://ik.imagekit.io/o6xkxph96/JeanRosario/tr:w-60/my-portfolio-img/purple-bubble.png"
 							width={40}
 						/>
 					</div>
@@ -95,7 +95,7 @@ function Home() {
 						initial={{ opacity: 0 }}
 						transition={{ duration: 1, repeat: 5 }}
 						className={HomeCSS.cartoonSelf}
-						src="images/cartoon-self.PNG"
+						src="https://ik.imagekit.io/o6xkxph96/JeanRosario/tr:w-600/my-portfolio-img/cartoon-self.png"
 						height={300}
 					/>
 				}
