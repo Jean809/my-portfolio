@@ -155,9 +155,9 @@
 	}
 
 	.introduction {
-		position: absolute;
+		position: relative;
 		left: 43em;
-		top: 26em;
+		top: 1em;
 	}
 
 	.lastNameBKG {

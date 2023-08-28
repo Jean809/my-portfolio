@@ -27,7 +27,8 @@ function App() {
 
 			<Home />
 
-			{/*<About />
+			<About />{/*
+			
 			
 			
   <Skills />
