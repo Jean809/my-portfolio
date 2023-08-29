@@ -51,3 +51,129 @@
 .lowerText {
 	font-weight: 400;
 }
+
+.orangeParticle1 {
+	position: absolute;
+	background-color: transparent;
+	top: 1100px;
+	z-index: 999;
+	width: 53px;
+	opacity: 0.5;
+	transform: rotate(0.25turn);
+}
+
+.orangeParticle2 {
+	position: absolute;
+	opacity: 0.5;
+	top: 850px;
+	left: 300px;
+}
+
+.orangeParticle3 {
+	position: absolute;
+	background-color: transparent;
+	opacity: 0.5;
+}
+
+.orangeParticle4 {
+	display: none;
+}
+
+.purpleParticle1 {
+	background-color: transparent;
+	position: absolute;
+	opacity: 0.2;
+	bottom: 10px;
+	left: 290px;
+}
+
+.purpleParticle2 {
+	background-color: transparent;
+	position: absolute;
+	top: 1000px;
+	opacity: 0.4;
+}
+
+.purpleParticle3 {
+	background-color: transparent;
+	position: absolute;
+	left: 290px;
+	top: 1100px;
+}
+
+@media only screen and (min-width: 768px) {
+	.mainContainer {
+		margin: 250px 0px 0px 0px;
+	}
+
+	.passion {
+		font-size: 30px;
+	}
+
+	.creativePerson {
+		font-size: 30px;
+		margin: 0px 0px 20px 120px;
+	}
+
+	.problemSolverbkg {
+		font-size: 40px;
+		transform: scaleX(1.7);
+	}
+
+	.problemSolver {
+		font-size: 40px;
+		margin: 0px 0px -10px 90px;
+		transform: scaleX(1.1);
+	}
+	.topTextContainer {
+		margin: 0px 0px 0px 500px;
+	}
+
+	.pcIMG {
+		width: 500px;
+		position: absolute;
+		margin: 0px 0px 0px 40px;
+	}
+
+	.lowerTextContainer {
+		width: 50%;
+		font-size: 25px;
+		margin: 200px 0px 0px 600px;
+		text-align: center;
+	}
+
+	.orangeParticle1 {
+		left: 1200px;
+		top: 1400px;
+	}
+
+	.orangeParticle2 {
+		left: 800px;
+	}
+
+	.orangeParticle4 {
+		display: block;
+		position: absolute;
+		left: 1000px;
+		top: 1160px;
+	}
+
+	.orangeParticle3 {
+		left: 200px;
+	}
+
+	.purpleParticle1 {
+		top: 900px;
+		left: 450px;
+		width: 70px;
+	}
+	.purpleParticle2 {
+		left: 600px;
+		top: 1200px;
+		width: 80px;
+	}
+
+	.purpleParticle3 {
+		opacity: 0.5;
+	}
+}

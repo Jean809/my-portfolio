@@ -42,7 +42,13 @@ function Header(props) {
 					<li>Contact</li>
 				</Link>
 			</ul>
-			<div className={HeaderCSS.homeContainer}>
+			<Link
+				to="home"
+				smooth={true}
+				duration={500}
+				onClick={() => handleLinkClick("home")}
+				className={HeaderCSS.homeContainer}
+			>
 				<p className={HeaderCSS.homeText}>HOME</p>
 				<img
 					className={HeaderCSS.homeIcon}
@@ -50,7 +56,7 @@ function Header(props) {
 					height={60}
 					width={100}
 				/>
-			</div>
+			</Link>
 		</header>
 	);
 }

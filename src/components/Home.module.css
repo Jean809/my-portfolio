@@ -90,7 +90,7 @@
 
 .orangeParticle2 {
 	position: absolute;
-	top: 700px;
+	top: 600px;
 	left: 50px;
 	transform: rotate(25deg);
 	opacity: 0.5;
@@ -128,14 +128,14 @@
 
 .purpleParticle2 {
 	position: absolute;
-	top: 540px;
-	left: 80px;
+	top: 520px;
+	left: 40px;
 	opacity: 0.5;
 }
 
 .purpleParticle3 {
 	position: absolute;
-	top: 760px;
+	top: 700px;
 	left: 280px;
 	transform: rotate(410deg);
 	opacity: 0.5;
