@@ -82,6 +82,7 @@
 	transform: rotate(90deg);
 	margin: 10px 0px 0px 40px;
 	opacity: 0.5;
+	background-color: transparent;
 }
 
 .orangeParticle2 {
@@ -90,6 +91,7 @@
 	left: 50px;
 	transform: rotate(25deg);
 	opacity: 0.5;
+	background-color: transparent;
 }
 
 .orangeParticle3 {
@@ -98,6 +100,7 @@
 	top: 550px;
 	transform: rotate(75deg);
 	opacity: 0.5;
+	background-color: transparent;
 }
 
 /* Particles 4-6 are for desktop view */
@@ -120,6 +123,7 @@
 	top: 150px;
 	transform: rotate(280deg);
 	opacity: 0.5;
+	background-color: transparent;
 }
 
 .purpleParticle2 {
@@ -127,6 +131,7 @@
 	top: 520px;
 	left: 40px;
 	opacity: 0.5;
+	background-color: transparent;
 }
 
 .purpleParticle3 {
@@ -135,6 +140,7 @@
 	left: 280px;
 	transform: rotate(410deg);
 	opacity: 0.5;
+	background-color: transparent;
 }
 
 /* particles 4 is for desktop view only */

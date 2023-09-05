@@ -1,7 +1,8 @@
 .listContainer {
 	display: flex;
 	list-style: none;
-	gap: 25px;
+	gap: 30px;
+	margin: 0px 0px 0px 123px;
 }
 
 li {
@@ -19,9 +20,8 @@ li {
 
 .homeContainer {
 	background-color: transparent;
-	position: relative;
-	bottom: 1.8em;
-	left: 1em;
+	position: fixed;
+	bottom: 788px;
 }
 
 .homeText {
