@@ -24,18 +24,11 @@ function App() {
 	return (
 		<div className="App">
 			<Header />
-
 			<Home />
+			<About />
+			{<div className="card-container">{card}</div>}
 
-			<About />{/*
-			
-			
-			
-  <Skills />
-
-  <div className="card-container">{card}</div> */}
-
-			{/*
+			{/* <Skills />
       <Card
 
       
