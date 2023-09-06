@@ -1,6 +1,7 @@
 import { useState } from "react";
 import HeaderCSS from "./Header.module.css";
-import { Link, animateScroll as scroll } from "react-scroll";
+
+import { Link } from "react-router-dom";
 
 function Header(props) {
 	const [isActive, setIsActive] = useState("home");
@@ -23,7 +24,7 @@ function Header(props) {
 					<li>About</li>
 				</Link>
 				<Link
-					to="projects"
+					to="/projects"
 					smooth={true}
 					duration={500}
 					onClick={() => handleLinkClick("projects")}
@@ -43,7 +44,7 @@ function Header(props) {
 				</Link>
 			</ul>
 			<Link
-				to="home"
+				to="/"
 				smooth={true}
 				duration={500}
 				onClick={() => handleLinkClick("home")}

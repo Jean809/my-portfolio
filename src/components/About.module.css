@@ -1,5 +1,5 @@
 .mainContainer {
-	margin: 100px 0px 0px 0px;
+	margin: 20px 0px 0px 0px;
 }
 
 .creativePerson {
@@ -55,7 +55,8 @@
 .orangeParticle1 {
 	position: absolute;
 	background-color: transparent;
-	top: 1100px;
+	top: 90px;
+	left: 290px;
 	z-index: 999;
 	width: 53px;
 	opacity: 0.5;
@@ -65,15 +66,18 @@
 .orangeParticle2 {
 	position: absolute;
 	opacity: 0.5;
-	top: 850px;
+	top: 490px;
 	left: 300px;
 	background-color: transparent;
+	z-index: 1;
 }
 
 .orangeParticle3 {
 	position: absolute;
 	background-color: transparent;
 	opacity: 0.5;
+	top: 300px;
+	left: 40px;
 }
 
 .orangeParticle4 {
@@ -84,22 +88,24 @@
 	background-color: transparent;
 	position: absolute;
 	opacity: 0.2;
-	bottom: 10px;
-	left: 290px;
+	bottom: 470px;
+	left: 300px;
 }
 
 .purpleParticle2 {
 	background-color: transparent;
 	position: absolute;
-	top: 1000px;
+	top: 510px;
+	left: 50px;
 	opacity: 0.4;
+	z-index: 1;
 }
 
 .purpleParticle3 {
 	background-color: transparent;
 	position: absolute;
-	left: 290px;
-	top: 1100px;
+	left: 40px;
+	top: 100px;
 }
 
 .projectsContainer {
@@ -107,12 +113,11 @@
 	color: white;
 	text-decoration: underline 1px;
 	text-underline-offset: 10px;
-	
 }
 
 @media only screen and (min-width: 768px) {
 	.mainContainer {
-		margin: 250px 0px 200px 0px;
+		margin: 100px 0px 100px 0px;
 	}
 
 	.passion {
@@ -153,12 +158,13 @@
 
 	.orangeParticle1 {
 		left: 1200px;
-		top: 1400px;
+		top: 550px;
 		background-color: transparent;
 	}
 
 	.orangeParticle2 {
-		left: 800px;
+		left: 900px;
+		top: 100px;
 		background-color: transparent;
 	}
 
@@ -166,8 +172,9 @@
 		display: block;
 		position: absolute;
 		left: 1000px;
-		top: 1160px;
+		top: 400px;
 		background-color: transparent;
+		z-index: 1;
 	}
 
 	.orangeParticle3 {
@@ -176,14 +183,15 @@
 	}
 
 	.purpleParticle1 {
-		top: 900px;
-		left: 450px;
+		top: 400px;
+		left: 650px;
 		width: 70px;
 		background-color: transparent;
+		z-index: 1;
 	}
 	.purpleParticle2 {
-		left: 600px;
-		top: 1200px;
+		left: 500px;
+		top: 90px;
 		width: 80px;
 		background-color: transparent;
 	}
@@ -191,6 +199,9 @@
 	.purpleParticle3 {
 		opacity: 0.5;
 		background-color: transparent;
+		z-index: 1;
+		top: 250px;
+		left: 100px;
 	}
 
 	.projectsContainer {

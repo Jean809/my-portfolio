@@ -39,6 +39,19 @@ li {
 	width: 120px;
 }
 
+a:link {
+	text-decoration: transparent;
+}
+
+a:visited {
+	text-decoration: none;
+}
+
+.active {
+	text-decoration: underline 2px;
+	color: blue;
+}
+
 @media only screen and (min-width: 768px) {
 	.homeContainer {
 		position: fixed;

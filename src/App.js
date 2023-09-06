@@ -5,6 +5,7 @@ import Card from "./components/Card";
 import Skills from "./components/Skills";
 import data from "./components/data";
 import { useState } from "react";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 function App() {
 	const card = data.map((item) => {
@@ -22,13 +23,18 @@ function App() {
 	});
 
 	return (
-		<div className="App">
-			<Header />
-			<Home />
-			<About />
-			{<div className="card-container">{card}</div>}
+		<BrowserRouter>
+			<div className="App">
+				<Header />
+				<Routes>
+					<Route path="/" element={<Home />} />
+					<Route path="/about" element={<About />} />
+					<Route
+						path="/projects"
+						element={<div className="card-container">{card}</div>}
+					/>
 
-			{/* <Skills />
+					{/* <Skills />
       <Card
 
       
@@ -39,7 +45,9 @@ function App() {
         description="A game with a scoring system that measures the highest score obtained
         as you are guessing the correct numbers."
   />*/}
-		</div>
+				</Routes>
+			</div>
+		</BrowserRouter>
 	);
 }
 

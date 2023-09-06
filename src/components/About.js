@@ -87,9 +87,6 @@ function About() {
 					</h3>
 				</div>
 			</div>
-			<div className={AboutCSS.projectsContainer}>
-				<h1>PROJECTS</h1>
-			</div>
 		</div>
 	);
 }
