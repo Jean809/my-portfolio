@@ -22,6 +22,14 @@
 	}
 }
 
+@media only screen and (min-width: 1300px) {
+	.card-container {
+		display: grid;
+		grid-template-columns: repeat(3, 430px);
+		grid-template-rows: 240px 240px;
+	}
+}
+
 @media only screen and (min-width: 1400px) {
 	.card-container {
 		display: grid;
