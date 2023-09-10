@@ -7,7 +7,6 @@ function About() {
 			<div className={AboutCSS.mainContainer}>
 				<div className={AboutCSS.particlesContainer}>
 					<motion.img
-						drag
 						animate={{ y: [10, 20, 20, 10] }}
 						transition={{ type: "tween", duration: 4, repeat: Infinity }}
 						className={AboutCSS.orangeParticle1}
@@ -15,7 +14,6 @@ function About() {
 						width={40}
 					/>
 					<motion.img
-						drag
 						animate={{ x: [0, 20, 20, 0] }}
 						transition={{ type: "tween", duration: 4, repeat: Infinity }}
 						className={AboutCSS.orangeParticle2}
@@ -23,7 +21,6 @@ function About() {
 						width={40}
 					/>
 					<motion.img
-						drag
 						animate={{ x: [0, 20, 20, 0] }}
 						transition={{ type: "tween", duration: 4, repeat: Infinity }}
 						className={AboutCSS.orangeParticle3}
@@ -32,7 +29,6 @@ function About() {
 					/>
 
 					<motion.img
-						drag
 						animate={{ y: [20, 0, 0, 20] }}
 						transition={{ type: "tween", duration: 4, repeat: Infinity }}
 						className={AboutCSS.orangeParticle4}
@@ -41,7 +37,6 @@ function About() {
 					/>
 
 					<motion.img
-						drag
 						animate={{ y: [0, 20, 20, 0] }}
 						transition={{ type: "tween", duration: 4, repeat: Infinity }}
 						className={AboutCSS.purpleParticle1}
@@ -50,7 +45,6 @@ function About() {
 					/>
 
 					<motion.img
-						drag
 						animate={{ x: [0, 20, 20, 0] }}
 						transition={{ type: "tween", duration: 4, repeat: Infinity }}
 						className={AboutCSS.purpleParticle2}
@@ -59,7 +53,6 @@ function About() {
 					/>
 
 					<motion.img
-						drag
 						animate={{ x: [0, 20, 20, 0] }}
 						transition={{ type: "tween", duration: 4, repeat: Infinity }}
 						className={AboutCSS.purpleParticle3}

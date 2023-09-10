@@ -115,7 +115,201 @@
 	text-underline-offset: 10px;
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 992px) {
+	.mainContainer {
+		margin: 100px 0px 100px 0px;
+	}
+
+	.passion {
+		font-size: 30px;
+	}
+
+	.creativePerson {
+		font-size: 30px;
+		margin: 0px 0px 20px 120px;
+	}
+
+	.problemSolverbkg {
+		font-size: 40px;
+		transform: scaleX(1.7);
+	}
+
+	.problemSolver {
+		font-size: 40px;
+		margin: 0px 0px -10px 90px;
+		transform: scaleX(1.1);
+	}
+	.topTextContainer {
+		margin: 0px 0px 0px 300px;
+	}
+
+	.pcIMG {
+		width: 400px;
+		position: absolute;
+		margin: 0px 0px 0px 40px;
+	}
+
+	.lowerTextContainer {
+		width: 50%;
+		font-size: 25px;
+		margin: 200px 0px 0px 440px;
+		text-align: center;
+	}
+
+	.orangeParticle1 {
+		left: 400px;
+		top: 550px;
+		background-color: transparent;
+	}
+
+	.orangeParticle2 {
+		left: 900px;
+		top: 100px;
+		background-color: transparent;
+	}
+
+	.orangeParticle4 {
+		display: block;
+		position: absolute;
+		left: 800px;
+		top: 400px;
+		background-color: transparent;
+		z-index: 1;
+	}
+
+	.orangeParticle3 {
+		left: 200px;
+		background-color: transparent;
+	}
+
+	.purpleParticle1 {
+		top: 400px;
+		left: 650px;
+		width: 70px;
+		background-color: transparent;
+		z-index: 1;
+	}
+	.purpleParticle2 {
+		left: 500px;
+		top: 90px;
+		width: 80px;
+		background-color: transparent;
+	}
+
+	.purpleParticle3 {
+		opacity: 0.5;
+		background-color: transparent;
+		z-index: 1;
+		top: 250px;
+		left: 100px;
+	}
+
+	.projectsContainer {
+		margin: 0px 0px 0px 700px;
+		color: white;
+		text-decoration: underline 2px;
+		text-underline-offset: 5px;
+	}
+}
+
+@media only screen and (min-width: 1200px) {
+	.mainContainer {
+		margin: 100px 0px 100px 0px;
+	}
+
+	.passion {
+		font-size: 30px;
+	}
+
+	.creativePerson {
+		font-size: 30px;
+		margin: 0px 0px 20px 120px;
+	}
+
+	.problemSolverbkg {
+		font-size: 40px;
+		transform: scaleX(1.7);
+	}
+
+	.problemSolver {
+		font-size: 40px;
+		margin: 0px 0px -10px 90px;
+		transform: scaleX(1.1);
+	}
+	.topTextContainer {
+		margin: 0px 0px 0px 300px;
+	}
+
+	.pcIMG {
+		width: 400px;
+		position: absolute;
+		margin: 0px 0px 0px 40px;
+	}
+
+	.lowerTextContainer {
+		width: 50%;
+		font-size: 25px;
+		margin: 200px 0px 0px 550px;
+		text-align: center;
+	}
+
+	.orangeParticle1 {
+		left: 400px;
+		top: 550px;
+		background-color: transparent;
+	}
+
+	.orangeParticle2 {
+		left: 900px;
+		top: 100px;
+		background-color: transparent;
+	}
+
+	.orangeParticle4 {
+		display: block;
+		position: absolute;
+		left: 800px;
+		top: 400px;
+		background-color: transparent;
+		z-index: 1;
+	}
+
+	.orangeParticle3 {
+		left: 200px;
+		background-color: transparent;
+	}
+
+	.purpleParticle1 {
+		top: 400px;
+		left: 650px;
+		width: 70px;
+		background-color: transparent;
+		z-index: 1;
+	}
+	.purpleParticle2 {
+		left: 500px;
+		top: 90px;
+		width: 80px;
+		background-color: transparent;
+	}
+
+	.purpleParticle3 {
+		opacity: 0.5;
+		background-color: transparent;
+		z-index: 1;
+		top: 250px;
+		left: 100px;
+	}
+
+	.projectsContainer {
+		margin: 0px 0px 0px 700px;
+		color: white;
+		text-decoration: underline 2px;
+		text-underline-offset: 5px;
+	}
+}
+
+@media only screen and (min-width: 1400px) {
 	.mainContainer {
 		margin: 100px 0px 100px 0px;
 	}

@@ -60,6 +60,7 @@
 	color: rgb(255, 255, 255);
 	font-size: 13px;
 	margin: 20px 0px 0px 40px;
+	cursor: not-allowed;
 }
 
 .helloText,
@@ -149,7 +150,251 @@
 	display: none;
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 992px) {
+	.cartoonSelf {
+		width: 350px;
+		height: 350px;
+		margin: -20px 0px 0px 300px;
+	}
+
+	.introduction {
+		position: relative;
+		left: 27.5em;
+		top: 1em;
+	}
+
+	.lastNameBKG {
+		font-size: 70px;
+		margin: 0px 0px 0px -80px;
+		text-underline-offset: 13px;
+	}
+
+	.lastName {
+		display: inline;
+	}
+
+	.myName {
+		font-size: 35px;
+		margin: 10px 0px 0px -55px;
+	}
+	.helloText {
+		font-size: 50px;
+		margin: 0px 0px -20px -35px;
+	}
+
+	.orangeParticle1 {
+		left: 350px;
+		opacity: 0.5;
+		background-color: transparent;
+	}
+
+	.orangeParticle2 {
+		left: 100px;
+		top: 300px;
+		opacity: 0.5;
+		background-color: transparent;
+	}
+
+	.orangeParticle3 {
+		opacity: 0.5;
+		background-color: transparent;
+		left: 850px;
+	}
+
+	.orangeParticle4 {
+		display: inline;
+		position: absolute;
+		left: 850px;
+		top: 220px;
+		transform: rotate(90deg);
+		opacity: 0.5;
+		background-color: transparent;
+	}
+
+	.orangeParticle5 {
+		display: inline;
+		position: absolute;
+		height: 30px;
+		width: 30px;
+		left: 750px;
+		top: 450px;
+		transform: rotate(110deg);
+		opacity: 0.5;
+		background-color: transparent;
+	}
+
+	.orangeParticle6 {
+		display: inline;
+		position: absolute;
+		height: 30px;
+		width: 30px;
+		left: 450px;
+		top: 600px;
+		transform: rotate(90deg);
+		opacity: 0.5;
+		background-color: transparent;
+	}
+
+	.purpleParticle1 {
+		height: 70px;
+		width: 70px;
+		top: 300px;
+		left: 300px;
+		opacity: 0.5;
+		background-color: transparent;
+	}
+
+	.purpleParticle2 {
+		height: 60px;
+		width: 60px;
+		top: 550px;
+		opacity: 0.5;
+		background-color: transparent;
+		left: 250px;
+	}
+
+	.purpleParticle3 {
+		position: absolute;
+		left: 750px;
+		top: 560px;
+		transform: rotate(10deg);
+		opacity: 0.5;
+		background-color: transparent;
+	}
+
+	.purpleParticle4 {
+		display: inline;
+		position: absolute;
+		left: 50px;
+		transform: rotate(260deg);
+		opacity: 0.5;
+		background-color: transparent;
+	}
+}
+
+@media only screen and (min-width: 1200px) {
+	.cartoonSelf {
+		width: 350px;
+		height: 350px;
+		margin: -20px 0px 0px 370px;
+	}
+
+	.introduction {
+		position: relative;
+		left: 32em;
+		top: 1em;
+	}
+
+	.lastNameBKG {
+		font-size: 70px;
+		margin: 0px 0px 0px -80px;
+		text-underline-offset: 13px;
+	}
+
+	.lastName {
+		display: inline;
+	}
+
+	.myName {
+		font-size: 35px;
+		margin: 10px 0px 0px -55px;
+	}
+	.helloText {
+		font-size: 50px;
+		margin: 0px 0px -20px -35px;
+	}
+
+	.orangeParticle1 {
+		left: 350px;
+		opacity: 0.5;
+		background-color: transparent;
+	}
+
+	.orangeParticle2 {
+		left: 200px;
+		top: 300px;
+		opacity: 0.5;
+		background-color: transparent;
+	}
+
+	.orangeParticle3 {
+		opacity: 0.5;
+		background-color: transparent;
+		left: 950px;
+	}
+
+	.orangeParticle4 {
+		display: inline;
+		position: absolute;
+		left: 950px;
+		top: 220px;
+		transform: rotate(90deg);
+		opacity: 0.5;
+		background-color: transparent;
+	}
+
+	.orangeParticle5 {
+		display: inline;
+		position: absolute;
+		height: 30px;
+		width: 30px;
+		left: 750px;
+		top: 450px;
+		transform: rotate(110deg);
+		opacity: 0.5;
+		background-color: transparent;
+	}
+
+	.orangeParticle6 {
+		display: inline;
+		position: absolute;
+		height: 30px;
+		width: 30px;
+		left: 450px;
+		top: 600px;
+		transform: rotate(90deg);
+		opacity: 0.5;
+		background-color: transparent;
+	}
+
+	.purpleParticle1 {
+		height: 70px;
+		width: 70px;
+		top: 200px;
+		left: 300px;
+		opacity: 0.5;
+		background-color: transparent;
+	}
+
+	.purpleParticle2 {
+		height: 60px;
+		width: 60px;
+		top: 650px;
+		opacity: 0.5;
+		background-color: transparent;
+		left: 250px;
+	}
+
+	.purpleParticle3 {
+		position: absolute;
+		left: 750px;
+		top: 560px;
+		transform: rotate(10deg);
+		opacity: 0.5;
+		background-color: transparent;
+	}
+
+	.purpleParticle4 {
+		display: inline;
+		position: absolute;
+		left: 50px;
+		transform: rotate(260deg);
+		opacity: 0.5;
+		background-color: transparent;
+	}
+}
+
+@media only screen and (min-width: 1400px) {
 	.cartoonSelf {
 		width: 400px;
 		height: 400px;

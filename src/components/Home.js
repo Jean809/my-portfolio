@@ -11,7 +11,6 @@ function Home() {
 				{
 					<div className={HomeCSS.particlesContainer}>
 						<motion.img
-							drag
 							dragConstraints={{ top: 10, left: 100, bottom: 600, right: 1000 }}
 							animate={{ x: [0, 20, 20, 0], y: [20, 0, 0, 20] }}
 							transition={{ type: "tween", duration: 3, repeat: Infinity }}
@@ -20,7 +19,6 @@ function Home() {
 							width={60}
 						/>
 						<motion.img
-							drag
 							animate={{ x: [20, 0, 0, 20], y: [0, 15, 15, 0] }}
 							transition={{ type: "tween", duration: 4, repeat: Infinity }}
 							className={HomeCSS.orangeParticle2}
@@ -29,7 +27,6 @@ function Home() {
 						/>
 
 						<motion.img
-							drag
 							animate={{ x: [0, 20, 20, 0] }}
 							transition={{ type: "tween", duration: 4, repeat: Infinity }}
 							className={HomeCSS.orangeParticle3}
@@ -38,7 +35,6 @@ function Home() {
 						/>
 
 						<motion.img
-							drag
 							animate={{ y: [0, 20, 20, 0] }}
 							transition={{ type: "tween", duration: 3, repeat: Infinity }}
 							className={HomeCSS.orangeParticle4}
@@ -46,7 +42,6 @@ function Home() {
 							width={60}
 						/>
 						<motion.img
-							drag
 							animate={{ y: [0, 20, 20, 0] }}
 							transition={{ type: "tween", duration: 5, repeat: Infinity }}
 							className={HomeCSS.orangeParticle5}
@@ -55,7 +50,6 @@ function Home() {
 						/>
 
 						<motion.img
-							drag
 							animate={{ x: [0, 15, 15, 0] }}
 							transition={{ type: "tween", duration: 3, repeat: Infinity }}
 							className={HomeCSS.orangeParticle6}
@@ -64,7 +58,6 @@ function Home() {
 						/>
 
 						<motion.img
-							drag
 							animate={{ y: [0, 20, 20, 0] }}
 							transition={{ type: "tween", duration: 3, repeat: Infinity }}
 							className={HomeCSS.purpleParticle1}
@@ -72,7 +65,6 @@ function Home() {
 							width={40}
 						/>
 						<motion.img
-							drag
 							animate={{ x: [0, 15, 15, 0] }}
 							transition={{ type: "tween", duration: 3, repeat: Infinity }}
 							className={HomeCSS.purpleParticle2}
@@ -81,7 +73,6 @@ function Home() {
 						/>
 
 						<motion.img
-							drag
 							animate={{ x: [0, 20, 20, 0], y: [20, 0, 0, 20] }}
 							transition={{ type: "tween", duration: 4, repeat: Infinity }}
 							className={HomeCSS.purpleParticle3}
@@ -90,7 +81,6 @@ function Home() {
 						/>
 
 						<motion.img
-							drag
 							animate={{ x: [0, 20, 20, 0], y: [15, 0, 0, 15] }}
 							transition={{ type: "tween", duration: 4, repeat: Infinity }}
 							y
@@ -114,7 +104,7 @@ function Home() {
 					<div className={HomeCSS.introduction}>
 						<h1 className={HomeCSS.helloText}>HELLO</h1>
 						<h1 className={HomeCSS.lastNameBKG}>ROSARIO</h1>
-						
+
 						<h3 className={HomeCSS.myName}>
 							I AM JEAN<span className={HomeCSS.lastName}>ROSARIO</span>
 						</h3>

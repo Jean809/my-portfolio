@@ -40,16 +40,15 @@ li {
 }
 
 a:link {
-	text-decoration: transparent;
+	text-decoration: none;
 }
 
 a:visited {
 	text-decoration: none;
 }
 
-.active {
-	text-decoration: underline 2px;
-	color: blue;
+.unavailable {
+	cursor: not-allowed;
 }
 
 @media only screen and (min-width: 768px) {
