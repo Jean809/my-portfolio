@@ -1,15 +1,14 @@
 .cartoonSelf {
-	position: relative;
-	top: 30px;
-	left: 50px;
+	display: block;
+	margin: auto;
+
 	background-color: transparent;
 }
 
 .introduction {
-	position: relative;
+	display: block;
+	margin: auto;
 	background-color: transparent;
-	top: 10px;
-	left: 100px;
 }
 
 .helloText {
@@ -154,13 +153,12 @@
 	.cartoonSelf {
 		width: 350px;
 		height: 350px;
-		margin: -20px 0px 0px 300px;
 	}
 
 	.introduction {
 		position: relative;
-		left: 27.5em;
-		top: 1em;
+		left: 45px;
+		margin: auto;
 	}
 
 	.lastNameBKG {
@@ -276,13 +274,11 @@
 	.cartoonSelf {
 		width: 350px;
 		height: 350px;
-		margin: -20px 0px 0px 370px;
 	}
 
 	.introduction {
 		position: relative;
-		left: 32em;
-		top: 1em;
+		margin: auto;
 	}
 
 	.lastNameBKG {
@@ -398,13 +394,11 @@
 	.cartoonSelf {
 		width: 350px;
 		height: 350px;
-		margin: -20px 0px 0px 430px;
 	}
 
 	.introduction {
 		position: relative;
-		left: 35.6em;
-		top: 1em;
+		margin: auto;
 	}
 
 	.lastNameBKG {
@@ -427,13 +421,13 @@
 	}
 
 	.orangeParticle1 {
-		left: 350px;
+		left: 250px;
 		opacity: 0.5;
 		background-color: transparent;
 	}
 
 	.orangeParticle2 {
-		left: 200px;
+		left: 100px;
 		top: 300px;
 		opacity: 0.5;
 		background-color: transparent;
@@ -442,13 +436,13 @@
 	.orangeParticle3 {
 		opacity: 0.5;
 		background-color: transparent;
-		left: 950px;
+		left: 1050px;
 	}
 
 	.orangeParticle4 {
 		display: inline;
 		position: absolute;
-		left: 950px;
+		left: 1070px;
 		top: 220px;
 		transform: rotate(90deg);
 		opacity: 0.5;
@@ -520,13 +514,6 @@
 	.cartoonSelf {
 		width: 400px;
 		height: 400px;
-		margin: -20px 0px 0px 530px;
-	}
-
-	.introduction {
-		position: relative;
-		left: 43em;
-		top: 1em;
 	}
 
 	.lastNameBKG {

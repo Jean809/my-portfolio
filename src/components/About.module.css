@@ -260,7 +260,7 @@
 	}
 
 	.orangeParticle2 {
-		left: 900px;
+		left: 990px;
 		top: 100px;
 		background-color: transparent;
 	}
@@ -268,7 +268,7 @@
 	.orangeParticle4 {
 		display: block;
 		position: absolute;
-		left: 800px;
+		left: 970px;
 		top: 400px;
 		background-color: transparent;
 		z-index: 1;
