@@ -69,7 +69,7 @@ function About() {
 				<div>
 					<img
 						className={AboutCSS.pcIMG}
-						src="https://ik.imagekit.io/o6xkxph96/JeanRosario/tr:w-350/my-portfolio-img/pc-img.png"
+						src="https://ik.imagekit.io/o6xkxph96/my-portfolio-img/pc-img.png?updatedAt=1694483105952"
 						width={230}
 					/>
 				</div>
