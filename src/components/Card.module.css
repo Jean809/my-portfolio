@@ -1,6 +1,5 @@
 .mainContainer {
 	margin: 3em 0em 1em 5em;
-
 }
 
 .githubLink:link {
@@ -29,12 +28,12 @@
 }
 
 .cardContainer {
-	width: 85%;
+	width: 100%;
 	height: 100%;
 	box-shadow: 2px 2px 12px 2px rgba(0, 0, 0, 0.6);
 	border-radius: 10px;
 	background-color: rgba(0, 0, 0, 0.485);
-	margin: 0px 0px 0px -10px;
+	margin: auto;
 }
 
 .title {
@@ -47,13 +46,13 @@
 
 .badge {
 	width: 70px;
-	margin: 0em 0em 0em 0em;
-	margin-left: 0.5em;
+	margin: 0em 0em 0e 0px;
+	margin-left: 10px;
 	background-color: transparent;
 }
 
 .thirdBadge {
-	margin: -1.3em 0em 0em 0.5em;
+	margin: -13px 0px 0px 10px;
 }
 
 .description {
