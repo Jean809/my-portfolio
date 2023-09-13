@@ -209,6 +209,7 @@
 	}
 	.topTextContainer {
 		margin: 0px 0px 0px 300px;
+		width: fit-content;
 	}
 
 	.pcIMG {
