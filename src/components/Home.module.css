@@ -150,11 +150,10 @@
 }
 
 @media only screen and (orientation: landscape) {
-	
 	.orangeParticle1 {
 		left: 120px;
 	}
-	
+
 	.orangeParticle2 {
 		left: 160px;
 		top: 300px;
@@ -337,30 +336,6 @@
 		height: 350px;
 	}
 
-	.introduction {
-		position: relative;
-		margin: auto;
-	}
-
-	.lastNameBKG {
-		font-size: 70px;
-		margin: 0px 0px 0px -80px;
-		text-underline-offset: 13px;
-	}
-
-	.lastName {
-		display: inline;
-	}
-
-	.myName {
-		font-size: 35px;
-		margin: 10px 0px 0px -55px;
-	}
-	.helloText {
-		font-size: 50px;
-		margin: 0px 0px -20px -35px;
-	}
-
 	.orangeParticle1 {
 		left: 350px;
 		opacity: 0.5;
@@ -457,30 +432,6 @@
 		height: 350px;
 	}
 
-	.introduction {
-		position: relative;
-		margin: auto;
-	}
-
-	.lastNameBKG {
-		font-size: 70px;
-		margin: 0px 0px 0px -80px;
-		text-underline-offset: 13px;
-	}
-
-	.lastName {
-		display: inline;
-	}
-
-	.myName {
-		font-size: 35px;
-		margin: 10px 0px 0px -55px;
-	}
-	.helloText {
-		font-size: 50px;
-		margin: 0px 0px -20px -35px;
-	}
-
 	.orangeParticle1 {
 		left: 250px;
 		opacity: 0.5;
@@ -575,31 +526,6 @@
 	.cartoonSelf {
 		width: 400px;
 		height: 400px;
-	}
-
-	.lastNameBKG {
-		font-size: 70px;
-		margin: 0px 0px 0px -80px;
-		text-underline-offset: 13px;
-	}
-
-	.line {
-		font-size: 25px;
-		transform: scaleX(3.2);
-		margin: 0px 0px 0px 45px;
-	}
-
-	.lastName {
-		display: inline;
-	}
-
-	.myName {
-		font-size: 35px;
-		margin: 10px 0px 0px -55px;
-	}
-	.helloText {
-		font-size: 50px;
-		margin: 0px 0px -20px -35px;
 	}
 
 	.orangeParticle1 {
