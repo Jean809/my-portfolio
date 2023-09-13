@@ -136,6 +136,53 @@
 	}
 }
 
+@media only screen and (min-width: 600px) {
+	.topTextContainer {
+		margin: 100px 0px 0px 320px;
+		transform: scale(1.2);
+	}
+
+	.pcIMG {
+		width: 340px;
+		margin: -20px 0px 40px 0px;
+		background-color: transparent;
+	}
+
+	.lowerTextContainer {
+		width: 50%;
+		margin: -150px 0px 0px 375px;
+		transform: scale(1.1);
+		background-color: transparent;
+	}
+	.orangeParticle1 {
+		top: 40px;
+		left: 300px;
+	}
+
+	.orangeParticle2 {
+		left: 660px;
+		top: 180px;
+	}
+
+	.orangeParticle3 {
+		left: 300px;
+		top: 450px;
+	}
+
+	.purpleParticle1 {
+		left: 600px;
+		top: 300px;
+	}
+	.purpleParticle2 {
+		left: 350px;
+		top: 250px;
+	}
+
+	.purpleParticle3 {
+		left: 100px;
+	}
+}
+
 @media only screen and (min-width: 992px) {
 	.mainContainer {
 		margin: 100px 0px 0px 0px;

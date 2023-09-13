@@ -2,7 +2,7 @@ import Header from "./components/Header";
 import Home from "./components/Home";
 import About from "./components/About";
 import Card from "./components/Card";
-import Skills from "./components/Skills";
+
 import data from "./components/data";
 import { useState } from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
@@ -34,7 +34,7 @@ function App() {
 						element={<div className="card-container">{card}</div>}
 					/>
 
-					{/* <Skills />
+					{/* 
       <Card
 
       
