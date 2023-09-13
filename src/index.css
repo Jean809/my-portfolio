@@ -8,14 +8,15 @@
 
 .card-container {
 	display: grid;
-	grid-template-columns: repeat(1, 300px);
+	grid-template-columns: repeat(1, 1fr);
 	grid-template-rows: auto;
+	margin: 0px 75px 0px 0px;
 }
 
 @media only screen and (orientation: landscape) {
 	.card-container {
 		display: grid;
-		grid-template-columns: repeat(1, 755px);
+		grid-template-columns: repeat(1, 1fr);
 		grid-template-rows: auto;
 	}
 }
@@ -23,7 +24,7 @@
 @media only screen and (min-width: 992px) {
 	.card-container {
 		display: grid;
-		grid-template-columns: repeat(2, 460px);
+		grid-template-columns: repeat(2, 1fr);
 		grid-template-rows: auto;
 	}
 }
@@ -31,31 +32,7 @@
 @media only screen and (min-width: 1100px) {
 	.card-container {
 		display: grid;
-		grid-template-columns: repeat(3, 340px);
+		grid-template-columns: repeat(3, 1fr);
 		grid-template-rows: auto;
-	}
-}
-
-@media only screen and (min-width: 1200px) {
-	.card-container {
-		display: grid;
-		grid-template-columns: repeat(3, 375px);
-		grid-template-rows: 240px 240px;
-	}
-}
-
-@media only screen and (min-width: 1300px) {
-	.card-container {
-		display: grid;
-		grid-template-columns: repeat(3, 405px);
-		grid-template-rows: 240px 240px;
-	}
-}
-
-@media only screen and (min-width: 1400px) {
-	.card-container {
-		display: grid;
-		grid-template-columns: repeat(3, 440px);
-		grid-template-rows: 240px 240px;
 	}
 }
