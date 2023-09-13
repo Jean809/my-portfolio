@@ -117,7 +117,7 @@
 
 @media only screen and (min-width: 992px) {
 	.mainContainer {
-		margin: 100px 0px 100px 0px;
+		margin: 100px 0px 0px 0px;
 	}
 
 	.passion {
@@ -213,39 +213,6 @@
 }
 
 @media only screen and (min-width: 1200px) {
-	.mainContainer {
-		margin: 100px 0px 100px 0px;
-	}
-
-	.passion {
-		font-size: 30px;
-	}
-
-	.creativePerson {
-		font-size: 30px;
-		margin: 0px 0px 20px 120px;
-	}
-
-	.problemSolverbkg {
-		font-size: 40px;
-		transform: scaleX(1.7);
-	}
-
-	.problemSolver {
-		font-size: 40px;
-		margin: 0px 0px -10px 90px;
-		transform: scaleX(1.1);
-	}
-	.topTextContainer {
-		margin: 0px 0px 0px 300px;
-	}
-
-	.pcIMG {
-		width: 400px;
-		position: absolute;
-		margin: 0px 0px 0px 40px;
-	}
-
 	.lowerTextContainer {
 		width: 50%;
 		font-size: 25px;
@@ -310,29 +277,6 @@
 }
 
 @media only screen and (min-width: 1400px) {
-	.mainContainer {
-		margin: 100px 0px 100px 0px;
-	}
-
-	.passion {
-		font-size: 30px;
-	}
-
-	.creativePerson {
-		font-size: 30px;
-		margin: 0px 0px 20px 120px;
-	}
-
-	.problemSolverbkg {
-		font-size: 40px;
-		transform: scaleX(1.7);
-	}
-
-	.problemSolver {
-		font-size: 40px;
-		margin: 0px 0px -10px 90px;
-		transform: scaleX(1.1);
-	}
 	.topTextContainer {
 		margin: 0px 0px 0px 500px;
 	}
