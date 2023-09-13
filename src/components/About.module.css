@@ -282,6 +282,10 @@
 }
 
 @media only screen and (min-width: 1200px) {
+	.topTextContainer {
+		margin: 0px 0px 0px 370px;
+	}
+
 	.lowerTextContainer {
 		width: 50%;
 		font-size: 25px;
@@ -342,6 +346,13 @@
 		color: white;
 		text-decoration: underline 2px;
 		text-underline-offset: 5px;
+	}
+}
+
+@media only screen and (min-width: 1300px) {
+	.topTextContainer {
+		margin: 0px 0px 0px 410px;
+		width: fit-content;
 	}
 }
 
