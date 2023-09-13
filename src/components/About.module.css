@@ -115,6 +115,27 @@
 	text-underline-offset: 10px;
 }
 
+@media only screen and (orientation: landscape) {
+	.topTextContainer {
+		margin: 50px 0px -20px 300px;
+	}
+
+	.lowerTextContainer {
+		width: 50%;
+		margin: -100px 0px 0px 390px;
+	}
+
+	.orangeParticle2 {
+		top: 100px;
+		left: 700px;
+	}
+
+	.purpleParticle2 {
+		left: 630px;
+		top: 230px;
+	}
+}
+
 @media only screen and (min-width: 992px) {
 	.mainContainer {
 		margin: 100px 0px 0px 0px;
