@@ -46,13 +46,12 @@
 
 .badge {
 	width: 70px;
-	margin: 0em 0em 0e 0px;
-	margin-left: 10px;
+	margin-left: 11px;
 	background-color: transparent;
 }
 
 .thirdBadge {
-	margin: -13px 0px 0px 10px;
+	margin: -13px 0px 0px 13px;
 }
 
 .description {
