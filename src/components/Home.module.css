@@ -86,17 +86,18 @@
 
 .orangeParticle2 {
 	position: absolute;
-	top: 600px;
+	top: 500px;
 	left: 50px;
 	transform: rotate(25deg);
 	opacity: 0.5;
 	background-color: transparent;
+	z-index: 999;
 }
 
 .orangeParticle3 {
 	position: absolute;
-	left: 230px;
-	top: 550px;
+	left: 290px;
+	top: 320px;
 	transform: rotate(75deg);
 	opacity: 0.5;
 	background-color: transparent;
@@ -118,7 +119,7 @@
 
 .purpleParticle1 {
 	position: absolute;
-	left: 250px;
+	left: 298px;
 	top: 150px;
 	transform: rotate(280deg);
 	opacity: 0.5;
@@ -127,7 +128,7 @@
 
 .purpleParticle2 {
 	position: absolute;
-	top: 520px;
+	top: 320px;
 	left: 40px;
 	opacity: 0.5;
 	background-color: transparent;
@@ -135,11 +136,12 @@
 
 .purpleParticle3 {
 	position: absolute;
-	top: 630px;
-	left: 180px;
+	top: 490px;
+	left: 270px;
 	transform: rotate(410deg);
 	opacity: 0.5;
 	background-color: transparent;
+	z-index: 999;
 }
 
 /* particles 4 is for desktop view only */

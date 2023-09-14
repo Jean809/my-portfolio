@@ -2,8 +2,6 @@
 	display: flex;
 	list-style: none;
 	gap: 25px;
-	width: 100%;
-	z-index: 999;
 }
 
 li {
@@ -23,7 +21,7 @@ li {
 	background-color: transparent;
 	position: relative;
 	bottom: 1.8em;
-	right: 1em;
+	left: 1em;
 }
 
 .homeText {
@@ -53,31 +51,22 @@ a:visited {
 	cursor: not-allowed;
 }
 
-@media only screen and (max-width: 374px) {
+@media only screen and (max-width: 375px) {
 	.listContainer {
 		display: flex;
 		list-style: none;
-		gap: 13px;
+		gap: 20px;
 		width: 100%;
-	}
-
-	li {
-		color: white;
-		margin: 10px 0px 0px 0px;
-	}
-
-	/*this is to make home next to list items*/
-
-	.mainContainer {
-		display: flex;
+		z-index: 998;
+		margin: 0px 0px 0px -8px;
 	}
 
 	/* HOME btn */
 
 	.homeContainer {
-		background-color: transparent;
 		position: relative;
 		bottom: 1.8em;
+		left: -0.4em;
 	}
 }
 
