@@ -1,7 +1,6 @@
 .cartoonSelf {
 	display: block;
 	margin: auto;
-
 	background-color: transparent;
 }
 
@@ -96,7 +95,7 @@
 
 .orangeParticle3 {
 	position: absolute;
-	left: 310px;
+	left: 230px;
 	top: 550px;
 	transform: rotate(75deg);
 	opacity: 0.5;
@@ -119,7 +118,7 @@
 
 .purpleParticle1 {
 	position: absolute;
-	left: 310px;
+	left: 250px;
 	top: 150px;
 	transform: rotate(280deg);
 	opacity: 0.5;
@@ -136,8 +135,8 @@
 
 .purpleParticle3 {
 	position: absolute;
-	top: 700px;
-	left: 280px;
+	top: 630px;
+	left: 180px;
 	transform: rotate(410deg);
 	opacity: 0.5;
 	background-color: transparent;
