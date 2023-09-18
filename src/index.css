@@ -6,6 +6,12 @@
 	background-color: #34343a;
 }
 
+body {
+	height: 100%;
+	width: 100%;
+	overflow: hidden;
+}
+
 .card-container {
 	display: grid;
 	grid-template-columns: repeat(1, 1fr);
