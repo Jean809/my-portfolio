@@ -92,9 +92,6 @@ function Home() {
 				}
 				{
 					<motion.img
-						animate={{ opacity: 1 }}
-						initial={{ opacity: 0 }}
-						transition={{ duration: 1, repeat: 3 }}
 						className={HomeCSS.cartoonSelf}
 						src="https://ik.imagekit.io/o6xkxph96/JeanRosario/tr:w-600/my-portfolio-img/cartoon-self.png"
 						height={300}

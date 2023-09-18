@@ -1,3 +1,9 @@
+#home {
+	height: 100%;
+	width: 100%;
+	overflow: hidden;
+}
+
 .cartoonSelf {
 	display: block;
 	margin: auto;
@@ -177,6 +183,29 @@
 	.purpleParticle3 {
 		left: 500px;
 		top: 300px;
+	}
+}
+
+@media only screen and (max-width: 375px) {
+	.orangeParticle2 {
+		top: 450px;
+	}
+	.orangeParticle3 {
+		left: 240px;
+		top: 280px;
+	}
+
+	.purpleParticle1 {
+		left: 250px;
+	}
+
+	.purpleParticle2 {
+		left: 30px;
+		top: 270px;
+	}
+
+	.purpleParticle3 {
+		left: 200px;
 	}
 }
 
