@@ -39,6 +39,7 @@
 
 .pcIMG {
 	margin: 20px 0px 0px 88px;
+	background-color: transparent;
 }
 
 .lowerTextContainer {
@@ -46,6 +47,7 @@
 	margin: 35px 0px 0px 15px;
 	text-align: center;
 	color: white;
+	background-color: transparent;
 }
 
 .lowerText {
@@ -69,7 +71,7 @@
 	top: 490px;
 	left: 300px;
 	background-color: transparent;
-	z-index: 1;
+	z-index: 999;
 }
 
 .orangeParticle3 {
@@ -78,10 +80,12 @@
 	opacity: 0.5;
 	top: 300px;
 	left: 40px;
+	z-index: 999;
 }
 
 .orangeParticle4 {
 	display: none;
+	z-index: 999;
 }
 
 .purpleParticle1 {
@@ -90,6 +94,7 @@
 	opacity: 0.2;
 	bottom: 470px;
 	left: 300px;
+	z-index: 999;
 }
 
 .purpleParticle2 {
@@ -98,7 +103,7 @@
 	top: 510px;
 	left: 50px;
 	opacity: 0.4;
-	z-index: 1;
+	z-index: 999;
 }
 
 .purpleParticle3 {
@@ -106,6 +111,7 @@
 	position: absolute;
 	left: 40px;
 	top: 100px;
+	z-index: 999;
 }
 
 .projectsContainer {
@@ -138,19 +144,19 @@
 
 @media only screen and (min-width: 600px) {
 	.topTextContainer {
-		margin: 100px 0px 0px 320px;
+		margin: 100px 0px 30px 170px;
 		transform: scale(1.2);
 	}
 
 	.pcIMG {
-		width: 340px;
-		margin: -20px 0px 40px 0px;
+		width: 270px;
+		margin: 10px 0px 40px 0px;
 		background-color: transparent;
 	}
 
 	.lowerTextContainer {
 		width: 50%;
-		margin: -150px 0px 0px 375px;
+		margin: -150px 0px 0px 290px;
 		transform: scale(1.1);
 		background-color: transparent;
 	}
@@ -180,6 +186,31 @@
 
 	.purpleParticle3 {
 		left: 100px;
+	}
+}
+
+@media only screen and (min-width: 800px) {
+	.topTextContainer {
+		background-color: transparent;
+	}
+
+	.lowerTextContainer {
+		margin: -150px 0px 0px 340px;
+	}
+}
+
+@media only screen and (min-width: 900px) {
+	.topTextContainer {
+		margin: 100px 0px 30px 270px;
+	}
+
+	.lowerTextContainer {
+		margin: -150px 0px 0px 370px;
+	}
+	.pcIMG {
+		width: 300px;
+		margin: 10px 0px 40px 0px;
+		background-color: transparent;
 	}
 }
 

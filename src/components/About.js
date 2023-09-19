@@ -1,5 +1,6 @@
 import AboutCSS from "./About.module.css";
 import { color, motion } from "framer-motion";
+document.body.style.overflow='hidden'
 
 function About() {
 	return (

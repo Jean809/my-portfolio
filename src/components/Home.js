@@ -3,6 +3,7 @@ import { Link } from "react-scroll";
 import { animate, motion } from "framer-motion";
 import { useState } from "react";
 import { useEffect } from "react";
+document.body.style.overflow='hidden'
 
 function Home() {
 	return (
