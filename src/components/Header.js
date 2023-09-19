@@ -43,6 +43,7 @@ function Header(props) {
 					<li>Contact</li>
 				</Link>
 			</ul>
+
 			<Link
 				to="/"
 				smooth={true}

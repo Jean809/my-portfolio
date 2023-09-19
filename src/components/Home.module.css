@@ -3,7 +3,8 @@
 }
 
 .cartoonSelf {
-	display: block;
+	display: flex;
+	z-index: 998;
 	margin: auto;
 	background-color: transparent;
 }
@@ -86,6 +87,7 @@
 	margin: 10px 0px 0px 40px;
 	opacity: 0.5;
 	background-color: transparent;
+	z-index: 999;
 }
 
 .orangeParticle2 {
@@ -105,6 +107,7 @@
 	transform: rotate(75deg);
 	opacity: 0.5;
 	background-color: transparent;
+	z-index: 999;
 }
 
 /* Particles 4-6 are for desktop view */
@@ -295,6 +298,7 @@
 		transform: rotate(90deg);
 		opacity: 0.5;
 		background-color: transparent;
+		z-index: 999;
 	}
 
 	.orangeParticle5 {
@@ -307,6 +311,7 @@
 		transform: rotate(110deg);
 		opacity: 0.5;
 		background-color: transparent;
+		z-index: 999;
 	}
 
 	.orangeParticle6 {
@@ -319,6 +324,7 @@
 		transform: rotate(90deg);
 		opacity: 0.5;
 		background-color: transparent;
+		z-index: 999;
 	}
 
 	.purpleParticle1 {
@@ -328,6 +334,7 @@
 		left: 300px;
 		opacity: 0.5;
 		background-color: transparent;
+		z-index: 999;
 	}
 
 	.purpleParticle2 {
@@ -337,6 +344,7 @@
 		opacity: 0.5;
 		background-color: transparent;
 		left: 250px;
+		z-index: 999;
 	}
 
 	.purpleParticle3 {
@@ -346,6 +354,7 @@
 		transform: rotate(10deg);
 		opacity: 0.5;
 		background-color: transparent;
+		z-index: 999;
 	}
 
 	.purpleParticle4 {
@@ -355,6 +364,7 @@
 		transform: rotate(260deg);
 		opacity: 0.5;
 		background-color: transparent;
+		z-index: 999;
 	}
 }
 
