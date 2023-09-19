@@ -3,8 +3,7 @@
 }
 
 .cartoonSelf {
-	display: flex;
-	z-index: 998;
+	display: block;
 	margin: auto;
 	background-color: transparent;
 }
