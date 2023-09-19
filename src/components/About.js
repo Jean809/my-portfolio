@@ -1,8 +1,19 @@
 import AboutCSS from "./About.module.css";
 import { color, motion } from "framer-motion";
-document.body.style.overflow='hidden'
+import { useEffect } from "react";
 
 function About() {
+	
+	useEffect(() => {
+		// Add the class to the body or a container when the component mounts
+		document.body.classList.add('no-scroll');
+	
+		// Remove the class when the component unmounts
+		return () => {
+		  document.body.classList.remove('no-scroll');
+		};
+	  }, []);
+	
 	return (
 		<div id="about">
 			<div className={AboutCSS.mainContainer}>

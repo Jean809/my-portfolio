@@ -3,9 +3,16 @@ import { Link } from "react-scroll";
 import { animate, motion } from "framer-motion";
 import { useState } from "react";
 import { useEffect } from "react";
-document.body.style.overflow='hidden'
 
 function Home() {
+	useEffect(() => {
+		document.body.classList.add("no-scroll");
+
+		return () => {
+			document.body.classList.remove("no-scroll");
+		};
+	}, []);
+
 	return (
 		<div id="home">
 			<div className={HomeCSS.mainContainer}>

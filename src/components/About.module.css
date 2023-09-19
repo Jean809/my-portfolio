@@ -121,6 +121,8 @@
 	text-underline-offset: 10px;
 }
 
+
+
 @media only screen and (orientation: landscape) {
 	.topTextContainer {
 		margin: 50px 0px -20px 300px;
