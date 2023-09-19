@@ -121,7 +121,35 @@
 	text-underline-offset: 10px;
 }
 
+@media only screen and (max-width: 365px) {
+	.topTextContainer {
+		margin: 0px 0px 0px -35px;
+	}
 
+	.pcIMG {
+		margin: 20px 0px 0px 50px;
+	}
+
+	.lowerTextContainer {
+		margin: 30px auto
+	}
+
+	.orangeParticle1 {
+		left: 250px;
+	}
+
+	.orangeParticle2 {
+		left: 250px;
+	}
+
+	.orangeParticle3 {
+		left: 20px;
+	}
+
+	.purpleParticle1 {
+		left: 280px;
+	}
+}
 
 @media only screen and (orientation: landscape) {
 	.topTextContainer {
